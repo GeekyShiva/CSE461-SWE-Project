@@ -20,3 +20,4 @@
 # Documents 
 
 1. [Proposal Document](https://github.com/GeekyShiva/CSE461-SWE-Project/tree/master/Docs/Project_Proposal.pdf)
+2. [High-level Design Document](https://github.com/GeekyShiva/CSE461-SWE-Project/tree/master/Docs/HLD_document.pdf)
