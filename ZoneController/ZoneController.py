@@ -109,7 +109,7 @@ class ZoneController:
 	# 	The function is used to compile matrix A that is used furthen in weights computation. The formulation is Ax=b 
 	# 	to be used to fit a given cluster data according to three variables for population intensity.
 
-	def generate_A(self,X,path_data):
+	def generateA(self,X,path_data):
 		A_rows=len(self.wards)
 		A_columns=len(self.population_intensity)
 		A=np.zeros((A_rows,A_columns))
@@ -138,7 +138,7 @@ class ZoneController:
 	# 	Description:
 	#	This function is used to create the b vector needed for solving Ax=b
 
-	def get_b(self,X,date_string):
+	def getB(self,X,date_string):
 		b=np.zeros((len(self.wards)))
 		for ww in range(len(self.wards)):
 			b[ww]=X[X["ward_name"]==self.wards[ww]][date_string].values[0]
@@ -154,7 +154,7 @@ class ZoneController:
 	#	very less crowd.
 	#	Given total number of cases are combined for all these three. We find the weights in which these areas contribute to final count
 	
-	def get_weights(self,X,b):
+	def getWeights(self,X,b):
 		Xt=np.linalg.inv(np.matmul(X.T,X))
 		weights=np.matmul(np.matmul(Xt,X.T),b)
 		return weights
@@ -166,7 +166,7 @@ class ZoneController:
 	# 	Description:
 	#	This function is used to find patient distribution in every cluster and use weights to find total cases in cluster
 
-	def get_cases(self,X):
+	def getCases(self,X):
 		clusters=X["cluster_assignment"].unique()
 		cluster_cases=np.zeros((len(clusters),len(self.population_intensity)))
 		for cl in range(len(clusters)):
@@ -206,16 +206,16 @@ if ( __name__ == "__main__"):
 	#b is total cases in the ward
 	#x is vector w1,w2 and w3
 	#we generate A matrix, if transpose(A)*A is invertible we can directly solve this using closed form solution for x
-	A_mat=zone_object.generate_A(location_data,neighbours_data_path)
-	b_vec=zone_object.get_b(zone_object.patient_data,date_to_filter)
-	weights=zone_object.get_weights(A_mat,b_vec)
+	A_mat=zone_object.generateA(location_data,neighbours_data_path)
+	b_vec=zone_object.getB(zone_object.patient_data,date_to_filter)
+	weights=zone_object.getWeights(A_mat,b_vec)
 	print("Weights for population intensity:\n",weights)
 
 	#find case distribution in every cluster and use weights to find total cases in cluster
 	location_data["cluster_assignment"]=zone_object.location_clusters[:,2]
 	clusters=np.unique(zone_object.location_clusters[:,2])
 	print("clusters:\n",clusters)
-	cases_per_cluster_per_intensity=zone_object.get_cases(location_data)
+	cases_per_cluster_per_intensity=zone_object.getCases(location_data)
 	print("Matrix depicted cases per cluster per intensity:\n",cases_per_cluster_per_intensity)
 	# #predict total cases per cluster using weights of intensity colors
 	total_cases_per_cluster=np.round(np.matmul(cases_per_cluster_per_intensity,weights))
