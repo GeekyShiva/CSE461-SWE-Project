@@ -31,13 +31,14 @@ class ZoneController:
 		self.location_clusters=[]
 		self.clusters_details={}
 		self.clustering_algorithm_parameters={'quantile': .1,
-											'eps': .0095,
+											'eps': .01,
 											'damping': .98,
-											'n_clusters': 10}
+											'n_clusters': 7}
 		self.clustering_algorithms=['DBSCAN','MeanShift','AffinityPropagation','KMeans']
 		self.wards=[]
 		self.population_intensity=[]
 		self.population_intensity_weights=[]
+		self.cluster_zone_assignment=[]
 
 	# function getClusteringObject(cluster_algo):
 	# 	input: clustering algorithm to use
@@ -183,6 +184,7 @@ if ( __name__ == "__main__"):
 	patient_data_path="../MLData/Mumbai/ward_wise_positive_cases.csv"
 	neighbours_data_path="../MLData/Mumbai/ward_neighbors.csv"
 	date_to_filter="14.04.20"
+	# clustering_algorithm_to_use="KMeans"
 	clustering_algorithm_to_use="DBSCAN"
 
 	#location data for clustering
@@ -220,3 +222,9 @@ if ( __name__ == "__main__"):
 	# #predict total cases per cluster using weights of intensity colors
 	total_cases_per_cluster=np.round(np.matmul(cases_per_cluster_per_intensity,weights))
 	print("Total cases per cluster:\n",total_cases_per_cluster)
+
+	# basic zones assignment using histogram
+	hist_value,hist_bins_edges=np.histogram(total_cases_per_cluster,bins=3)
+	zone_assignment=np.digitize(total_cases_per_cluster, bins=hist_bins_edges)
+	zone_object.cluster_zone_assignment=np.vstack((clusters,zone_assignment,total_cases_per_cluster))
+	print(zone_assignment)
