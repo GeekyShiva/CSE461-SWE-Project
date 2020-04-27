@@ -17,6 +17,7 @@ from matplotlib import pyplot as plt
 import time
 import warnings
 from itertools import cycle, islice
+from scipy.spatial.distance import cdist
 
 #	class ZoneController:
 # 		Main class for machine learning based zone categorization. We use clustering to assign clusters to given
@@ -196,6 +197,22 @@ if ( __name__ == "__main__"):
 
 	zone_object.location_clusters=zone_object.createClusters(clustering_algorithm_to_use)
 	zone_object.plotClusters(clustering_algorithm_to_use)
+
+
+	clusters=np.unique(zone_object.location_clusters[:,2])
+	print("clusters:\n",clusters)
+
+	#assign outliers to nearest cluster
+	outliers=zone_object.location_clusters[np.where(zone_object.location_clusters[:,2]==-1)]
+	other_data=zone_object.location_clusters[np.where(zone_object.location_clusters[:,2]!=-1)]
+	distance_matrix=cdist(outliers[:,0:2],other_data[:,0:2])
+	indout=np.where(zone_object.location_clusters[:,2]==-1)
+	for ii in range(outliers.shape[0]):
+		x=outliers[ii,0]
+		y=outliers[ii,1]
+		closest_point=np.argsort(distance_matrix[ii,:])[0]
+		ind1=np.where((zone_object.location_clusters[:,0]==x) &(zone_object.location_clusters[:,1]==y))
+		zone_object.location_clusters[ind1,2]=other_data[closest_point,2]
 	
 	#assign patient data to clusters along with population in the cluster.
 	zone_object.wards=zone_object.patient_data["ward_name"].unique()
@@ -217,6 +234,8 @@ if ( __name__ == "__main__"):
 	location_data["cluster_assignment"]=zone_object.location_clusters[:,2]
 	clusters=np.unique(zone_object.location_clusters[:,2])
 	print("clusters:\n",clusters)
+
+	
 	cases_per_cluster_per_intensity=zone_object.getCases(location_data)
 	print("Matrix depicted cases per cluster per intensity:\n",cases_per_cluster_per_intensity)
 	# #predict total cases per cluster using weights of intensity colors
@@ -224,7 +243,24 @@ if ( __name__ == "__main__"):
 	print("Total cases per cluster:\n",total_cases_per_cluster)
 
 	# basic zones assignment using histogram
-	hist_value,hist_bins_edges=np.histogram(total_cases_per_cluster,bins=3)
+	hist_value,hist_bins_edges=np.histogram(total_cases_per_cluster,bins=4)
 	zone_assignment=np.digitize(total_cases_per_cluster, bins=hist_bins_edges)
 	zone_object.cluster_zone_assignment=np.vstack((clusters,zone_assignment,total_cases_per_cluster))
-	print(zone_assignment)
+	print(zone_object.cluster_zone_assignment)
+	for cc in clusters:
+		cluster_zone=zone_assignment[int(cc)]
+		location_data.loc[(location_data["cluster_assignment"]==cc),"zone_assignment"]=cluster_zone
+	location_data.to_csv("../MLData/Mumbai/location_zones.csv")
+	plt.title("zones", size=18)
+	z=location_data["zone_assignment"].values.astype(int)
+	x=location_data["latitude"].values
+	y=location_data["longitude"].values
+	colors = np.array(list(islice(cycle(['#377eb8', '#ff7f00', '#4daf4a','#f781bf', 
+		'#a65628', '#984ea3','#999999', '#e41a1c', '#dede00']),int(max(z) + 1))))
+	# add black color for outliers (if any)
+	colors = np.append(colors, ["#000000"])
+	# plt.scatter(self.location_clusters[:, 0], self.location_clusters[:, 1])
+	plt.scatter(x, y, s=10, color=colors[z])
+	for a,b,c in zip(x, y,z):
+		plt.text(a, b, str(c))
+	plt.show()
