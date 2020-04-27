@@ -116,21 +116,21 @@ class ZoneController:
 		A_columns=len(self.population_intensity)
 		A=np.zeros((A_rows,A_columns))
 		missing_wards=[]
-		for ww in range(A_rows):
-			if self.wards[ww] in X["ward_id"].unique():
+		for row in range(A_rows):
+			if self.wards[row] in X["ward_id"].unique():
 				for cc in range(A_columns):
-					A[ww,cc]=len(X[(X["ward_id"]==self.wards[ww]) & (X["color_marker"]==self.population_intensity[cc])])
+					A[row,cc]=len(X[(X["ward_id"]==self.wards[row]) & (X["color_marker"]==self.population_intensity[cc])])
 			else:
-				missing_wards.append(ww)
+				missing_wards.append(row)
 		#for missing wards fill the details by averaging neighboring wards
 		if len(missing_wards)>0:
 			wards_neighbors=pd.read_csv(path_data)
-			for mw in missing_wards:
-				mw_neighbors=wards_neighbors[wards_neighbors["ward_name"]==self.wards[mw]]["neighbours"].values[0].replace("[","").replace("]","").split(",")
+			for missingWardRow in missing_wards:
+				missingWardRow_neighbors=wards_neighbors[wards_neighbors["ward_name"]==self.wards[missingWardRow]]["neighbours"].values[0].replace("[","").replace("]","").split(",")
 				for cc in range(A_columns):
-					for mwn in mw_neighbors:
-						A[mw,cc]+=len(X[(X["ward_id"]==mwn) & (X["color_marker"]==self.population_intensity[cc])])
-					A[mw,cc]= np.ceil(A[mw,cc]/len(mw_neighbors))
+					for missingWardRown in missingWardRow_neighbors:
+						A[missingWardRow,cc]+=len(X[(X["ward_id"]==missingWardRown) & (X["color_marker"]==self.population_intensity[cc])])
+					A[missingWardRow,cc]= np.ceil(A[missingWardRow,cc]/len(missingWardRow_neighbors))
 		return A
 
 	# function get_b(data ,date):
@@ -142,8 +142,8 @@ class ZoneController:
 
 	def getB(self,X,date_string):
 		b=np.zeros((len(self.wards)))
-		for ww in range(len(self.wards)):
-			b[ww]=X[X["ward_name"]==self.wards[ww]][date_string].values[0]
+		for row in range(len(self.wards)):
+			b[row]=X[X["ward_name"]==self.wards[row]][date_string].values[0]
 		return b
 
 	# function get_weights(Amatrix ,b vector):
@@ -157,8 +157,8 @@ class ZoneController:
 	#	Given total number of cases are combined for all these three. We find the weights in which these areas contribute to final count
 	
 	def getWeights(self,X,b):
-		Xt=np.linalg.inv(np.matmul(X.T,X))
-		weights=np.matmul(np.matmul(Xt,X.T),b)
+		X_inverse=np.linalg.inv(np.matmul(X.T,X))
+		weights=np.matmul(np.matmul(X_inverse,X.T),b)
 		return weights
 
 
