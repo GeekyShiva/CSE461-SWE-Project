@@ -21,3 +21,56 @@
 
 1. [Proposal Document](https://github.com/GeekyShiva/CSE461-SWE-Project/tree/master/Docs/Project_Proposal.pdf)
 2. [High-level Design Document](https://github.com/GeekyShiva/CSE461-SWE-Project/tree/master/Docs/HLD_document.pdf)
+3. [Slides](Put Link Here)
+
+# Screenshots
+
+![makephotogallery.net_1580238239.jpg](https://www.dropbox.com/s/dgd40s5752y2jsl/makephotogallery.net_1580238239.jpg?dl=0&raw=1)
+
+# User Interactions
+![video.gif](https://firebasestorage.googleapis.com/v0/b/smart-ordr.appspot.com/o/ezgif.com-resize.gif?alt=media&token=3d9a010b-ba52-4045-a24e-cb3078e2a2f1)
+
+# About Flutter
+Flutter is an app SDK for building high-performance, high-fidelity apps for iOS, Android, web (beta), and desktop from a single codebase.
+
+The goal is to enable developers to deliver high-performance apps that feel natural on different platforms. We embrace differences in scrolling behaviors, typography, icons, and more.
+
+# Why Flutter?
+Why use Flutter?
+What are some advantages of Flutter? It helps you:
+
+* Be highly productive
+* Develop for iOS and Android from a single codebase
+* Do more with less code, even on a single OS, with a modern, expressive language and a declarative approach
+Prototype and iterate easily
+* Experiment by changing code and reloading as your app runs (with hot reload)
+* Fix crashes and continue debugging from where the app left off
+* Create beautiful, highly-customized user experiences
+Benefit from a rich set of Material Design and Cupertino (iOS-flavor) widgets built using Flutter’s own framework
+* Realize custom, beautiful, brand-driven designs, without the limitations of OEM widget sets
+
+# Flutter Architechture
+
+![Flutter](https://flutter.dev/assets/resources/diagram-layercake-73512ded89f7df8301f622c66178633f04f91187822daf1ddff0d54b2d2676dc.png)
+
+# Dependencies
+
+This project is built with various awesome open sourced libraries
+
+* [google_maps_flutter](https://pub.dev/packages/google_maps_flutter) -  to show map on screen (Still in beta version)
+* [flutter_bloc](https://pub.dev/packages/flutter_bloc) - to mantain state and make every widget independent using blocs 
+* [bloc](https://pub.dev/packages/bloc) - to listen events on taps by user and dispatch new state to other widgets
+* [equatable](https://pub.dev/packages/equatable) - to make models comparable (Nice Library) 
+* [shimmer](https://pub.dev/packages/shimmer) - to show nice loading effect
+* [location](https://pub.dev/packages/location) - to get current location of user (Feature to be developed)
+
+
+# Installation
+
+Add your API_KEY and your own credentials from your firebase project to android and ios folders. Run following command in cmd and then run your app
+
+```sh
+$ pub get
+```
+
+
