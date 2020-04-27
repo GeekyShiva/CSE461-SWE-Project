@@ -1,0 +1,513 @@
+,Unnamed: 0,latitude,longitude,address,ward_id,color_marker,cluster_assignment,zone_assignment
+0,0,18.93452541830031,72.83641077784328,"Bora Bazaar, A Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400038, India",A,Blue,0.0,5.0
+1,1,18.92156681802486,72.83228100093567,"Papaya bistro, Boman Behram Road (Mere Weather Road)/Shri Boman Kawasji Boman Behram Marg (Mere Weather Road), A Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400001, India",A,Blue,0.0,5.0
+2,2,18.92380419791584,72.83177018027394,"Holland House, Nanabhai Moos Marg (Upper Colaba Road), A Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400032, India",A,Blue,0.0,5.0
+3,3,18.93649916833496,72.83845033505023,"Windsor, Kumtha Street, Ballard Estate, A Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400038, India",A,Blue,0.0,5.0
+4,4,18.938208298579603,72.8372232833373,"ASHAPURA TRAVELS AGENCY, Walchand Hirachand Road (Fort Street), Bori Bunder, A Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 40001, India",A,Blue,0.0,5.0
+5,5,18.955739657674393,72.83465297601957,"Hindustan Restaurant, JB Shah Road (Chinch Bandar Road), Mandvi, B Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400003, India",B,Blue,0.0,5.0
+6,6,18.95233507140767,72.83440789142435,"Toilets, Bibijan Street, Mandvi, B Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400003, India",B,Blue,0.0,5.0
+7,7,18.95770413418953,72.83667874214929,"102, 2nd Flank Road, Mandvi, B Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400009, India",B,Blue,0.0,5.0
+8,8,18.95403805772641,72.8333698831657,"Noor Hospital, 49, J.J. Flyover, C Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400003, India",B,Blue,0.0,5.0
+9,9,18.958458866548263,72.83547541671486,"Noor Masjid, Mohamed Umer Kokil Marg, Mandvi, B Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400009, India",B,Blue,0.0,5.0
+10,10,18.956292578608533,72.83564771070273,"Mohamed Umer Kokil Marg, Mandvi, B Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400009, India",B,Blue,0.0,5.0
+11,11,18.949424900242782,72.83568129830952,"Old Bangalipura Road, B Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400003, India",B,Blue,0.0,5.0
+12,12,18.950196278916174,72.83891488889894,"B Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400009, India",B,Blue,0.0,5.0
+13,13,18.96170459791564,72.83455537058657,"Jail Road North; Laxman Narayan Jadhav Road (Jail Road North), Mandvi, B Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400009, India",B,Blue,0.0,5.0
+14,14,18.95854357177087,72.83701800338875,"Azad, Sardar Vallabhbhai Patel Road (Sandhurst Road), Mandvi, B Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400003, India",B,Blue,0.0,5.0
+15,15,18.953717312300643,72.83379650503204,"Mandvi, B Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400003, India",B,Blue,0.0,5.0
+16,16,18.95971000161665,72.83315579981671,"Piru Lane Masjid, Piru Lane, Mandvi, B Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400003, India",B,Blue,0.0,5.0
+17,17,18.95764931897959,72.83151239891433,"C Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400039, India",C,Blue,0.0,5.0
+18,18,18.95924359636312,72.82760318369158,"Sant Sena Maharaj Road, C Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400004, India",C,Blue,0.0,5.0
+19,19,18.94999470045629,72.82329779892072,"Wagle Wadi, C Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400002, India",C,Blue,0.0,5.0
+20,20,18.95581873980234,72.83170594325766,"1st Cross Lane Ghoghari Mohalla, C Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400003, India",C,Blue,0.0,5.0
+21,21,18.95722170072738,72.82639770037575,"Islampura Street, C Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400004, India",C,Blue,0.0,5.0
+22,22,18.9608691652865,72.80976910638519,"Sumer Saraswati CHS, Krishna Sangh Marg, Chikalwadi, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400036, India",D,Blue,0.0,5.0
+23,23,18.95419370915071,72.81652550739392,"Punjab, Mama Paramanand Marg, Chikalwadi, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400007, India",D,Blue,0.0,5.0
+24,24,18.961626947234212,72.8098051514458,"Barry Villa, Krishna Sangh Marg, Chikalwadi, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400036, India",D,Blue,0.0,5.0
+25,25,18.96679090989981,72.80359900257447,"Warden Road (Bhula Bhai Desai Marg), Haji Ali, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400036, India",D,Blue,0.0,5.0
+26,26,18.94860325856298,72.79673496472486,"Jamnadas Mehta Marg, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400006, India",D,Blue,0.0,5.0
+27,27,18.95640253178899,72.80970322298411,"Makichan Hall, 2nd Babulnath Cross Lane 2, Chikalwadi, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400007, India",D,Blue,0.0,5.0
+28,28,18.96371375732686,72.82159692418315,"Parsuram Puppaha Road (Bapty Road), Chikalwadi, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400008, India",D,Blue,0.0,5.0
+29,29,18.95873689508986,72.81309186956267,"Chikalwadi, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400007, India",D,Blue,0.0,5.0
+30,30,18.952522885567912,72.81820949253121,"Saifee Hospital, Maharshi Karve Road, C Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400004, India",D,Blue,0.0,5.0
+31,31,18.96366310638834,72.82076340101509,"Tardeo, Patthe Bapurao Marg (Falkland Road), Chikalwadi, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400004, India",D,Blue,0.0,5.0
+32,32,18.953453241998712,72.80619073784844,"Walkeswar Road, Chikalwadi, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400006, India",D,Blue,0.0,5.0
+33,33,18.96156710112902,72.82123674039451,"Hotel Briteway, 278, Maulana Shaukat Ali Marg, Chikalwadi, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400007, India",D,Blue,0.0,5.0
+34,34,18.96494001270727,72.81965254520328,"Jaysinghbhai P Solanki Garden, Patthe Bapurao Marg (Falkland Road), Chikalwadi, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400004, India",D,Blue,0.0,5.0
+35,35,18.963941125017623,72.81041860429852,"Vasantrao Naik Marg (Forjet Street), Chikalwadi, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400036, India",D,Blue,0.0,5.0
+36,36,18.973029911875912,72.81515646083801,"Rajani Mahal, Hatutma Sitaram Ghadi Gaonkar Street, Cowasji Jehangir Colony, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400034, India",D,Blue,0.0,5.0
+37,37,18.95642640223018,72.81308495457282,"Samyak Drishti Eye Centre, N Spatkar Marg, Chikalwadi, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400007, India",D,Blue,0.0,5.0
+38,38,18.96569416268198,72.81339531220519,"Bhatia General Hospital and Blood Bank, Tukaram Javji Marg, Chikalwadi, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400007, India",D,Blue,0.0,5.0
+39,39,18.95489671687805,72.82240452627661,"Kalyan Building No. 6, Khadilkar Marg (Kandewadi Lane), Chikalwadi, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400004, India",D,Blue,0.0,5.0
+40,40,18.96845021814094,72.82254177350617,"Cowasji Jehangir Colony, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400004, India",D,Blue,0.0,5.0
+41,41,18.955676778383967,72.82030816702733,"Ideal Wafer House, Kotachi Wadi, Chikalwadi, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400004, India",D,Blue,0.0,5.0
+42,42,18.97355232006301,72.80875074501753,"Haji Ali, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400026, India",D,Blue,0.0,5.0
+43,43,18.9482123534295,72.79625953690547,"Dongarsi Road, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400006, India",D,Blue,0.0,5.0
+44,44,18.967654380960592,72.82352970041705,"Cowasji Jehangir Colony, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400004, India",D,Blue,0.0,5.0
+45,45,18.97773067834001,72.81049730378056,"Heera Panna, Bhula Bhai Desai Marg, Haji Ali, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400026, India",D,Blue,0.0,5.0
+46,46,18.957489080494238,72.8154273063236,"Chikalwadi, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400036, India",D,Blue,0.0,5.0
+47,47,18.956718113611327,72.79948921077431,"F Block, Hyderabad Estate, L Jagmohandas Marg, Chikalwadi, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400006, India",D,Blue,0.0,5.0
+48,48,18.96627254683592,72.81261419545214,"Vasantrao Naik Marg (Forjet Street), Chikalwadi, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400036, India",D,Blue,0.0,5.0
+49,49,18.96481070009375,72.81128709951503,"Krantiveer Vasantrao N Naik Cross Lane, Chikalwadi, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400036, India",D,Blue,0.0,5.0
+50,50,18.964287697973262,72.81579278067214,"Aditya, Aditya apartments, Chikalwadi, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400036, India",D,Blue,0.0,5.0
+51,51,18.97358107257152,72.82819127779757,"E Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400008, India",E,Blue,0.0,5.0
+52,52,18.97692299925036,72.83013999864153,"Bapurao Jagtap Road, E Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400027, India",E,Blue,0.0,5.0
+53,53,18.97308107343798,72.82557268082134,"L Melville Marg, E Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400008, India",E,Blue,0.0,5.0
+54,54,18.97688868938127,72.8245909737755,"Hindustan Spinning and Weaving Mills no.1-2, Keshavrao Khadye Marg, E Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400027, India",E,Blue,0.0,5.0
+55,55,18.974644956350428,72.82651562073673,"Red Cross Street, E Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400008, India",E,Blue,0.0,5.0
+56,56,18.967329999205283,72.83910999912936,"Saint Mary Road, E Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400008, India",E,Blue,0.0,5.0
+57,57,18.97524860076407,72.8238218003798,"Wockhardt Hospitals, South Mumbai, Red Cross Street, E Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400011, India",E,Blue,0.0,5.0
+58,58,18.974809811146308,72.82624095010003,"Red Cross Street, E Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400008, India",E,Blue,0.0,5.0
+59,59,18.9690894708455,72.82832897304651,"Nagori Clinic and Nursing Home, Maulana Azad Road North, E Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400008, India",E,Blue,0.0,5.0
+60,60,18.96521768508955,72.84138127778964,"Hussain Patel Marg, Mandvi, B Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400003, India",E,Blue,0.0,5.0
+61,61,18.98563049970605,72.83137699977948,"Arthur Road Jail, Sane Guruji Marg (Arthur Road), E Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400027, India",E,Blue,0.0,5.0
+62,62,18.97440913376164,72.83234188462139,"N M Joshi Marg (Delisle Road), E Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400008, India",E,Blue,0.0,5.0
+63,63,18.97302309935158,72.82946620026283,"1st Sankli Street, E Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400008, India",E,Blue,0.0,5.0
+64,64,18.96348750274705,72.83098459971492,"Ahl e Hadith Masjid, Temkar Street, E Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400008, India",E,Blue,0.0,5.0
+65,65,18.966545494013427,72.84650630105452,"E Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400009, India",E,Blue,0.0,5.0
+66,66,19.007642374176108,72.85460306006273,"Dnyaneshwar Vidyalay, Sewri Cross Road, Sadbhavana Nagar, F/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400033, India",F/S,Blue,0.0,5.0
+67,67,18.991323300066263,72.83635230117667,"Ambewadi, F/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400012, India",F/S,Blue,0.0,5.0
+68,68,19.013072541745398,72.86144910634151,"BPT Hospital, LM Nadkarni Road, F/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400011, India",F/S,Blue,0.0,5.0
+69,69,19.0037054999598,72.854641700316,"Sewri Cross Road, Sadbhavana Nagar, F/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400033, India",F/S,Blue,0.0,5.0
+70,70,19.004753233736103,72.85423659266459,"Sadbhavana Nagar, F/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400033, India",F/S,Blue,0.0,5.0
+71,71,19.00648138053184,72.83909133816472,"Shindewadi, F/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400012, India",F/S,Blue,0.0,5.0
+72,72,18.98936451350657,72.85185673222287,"Sewri Dockyard, F/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400015, India",F/S,Blue,0.0,5.0
+73,73,18.993673300456983,72.8368930005215,"Currey Road, F/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400012, India",F/S,Blue,0.0,5.0
+74,74,18.99076126945868,72.83659405557796,"Ambewadi, F/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400012, India",F/S,Blue,0.0,5.0
+75,75,19.00434094065949,72.84294171520754,"Dr Ernest Borges Marg, Bhoiwada, F/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400012, India",F/S,Blue,0.0,5.0
+76,76,19.00512767077463,72.8384526615479,"Social Service League School Ground, Vitthal Chavan Marg, Parel Village, F/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400012, India",F/S,Blue,0.0,5.0
+77,77,19.00429543289544,72.83777706946023,"Parel Village, F/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400012, India",F/S,Blue,0.0,5.0
+78,78,18.994309150065032,72.84475834971751,"G D Ambedkar Marg (Parel Tank Road), Dock Labour Colony, F/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400015, India",F/S,Blue,0.0,5.0
+79,79,19.00558071101374,72.85414154401901,"Sadbhavana Nagar, F/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400033, India",F/S,Blue,0.0,5.0
+80,80,19.00826370676675,72.8467899552739,"P Pednekar Marg, Bhoiwada, F/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400033, India",F/S,Blue,0.0,5.0
+81,81,19.014441758102,72.84283575815255,"Dr. Mahaveer Jangada Clinic, Dadar, Dadasaheb Phalke Marg, Shindewadi, F/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400014, India",F/S,Blue,0.0,5.0
+82,82,18.99196790514752,72.8177571617841,"Jeejamata Nagar, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400018, India",G/S,Blue,0.0,5.0
+83,83,18.9952865094402,72.82119253232985,"BDD Chawl, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400018, India",G/S,Blue,0.0,5.0
+84,84,19.01501899918175,72.81752900023633,"Sir Pochkhanwala Marg, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400030, India",G/S,Blue,0.0,5.0
+85,85,19.01730156437571,72.81922835574561,"Worli Village, V B Worlikar Marg, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400030, India",G/S,Blue,0.0,5.0
+86,86,19.01749964617516,72.8207839224221,"G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400025, India",G/S,Blue,0.0,5.0
+87,87,19.01754458422495,72.81905807872687,"V B Worlikar Marg, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400030, India",G/S,Blue,0.0,5.0
+88,88,18.99219662184117,72.81810516671031,"Jeejamata Nagar, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400018, India",G/S,Blue,0.0,5.0
+89,89,19.01730156437571,72.81922835574561,"Worli Village, V B Worlikar Marg, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400030, India",G/S,Blue,0.0,5.0
+90,90,19.010408655956713,72.82458414918284,"Century Mills, Sadanand Hasu Tandel Marg, BDD Chawl, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400030, India",G/S,Blue,0.0,5.0
+91,91,19.00218609656497,72.8218707420464,"SV 110/2,, Sivram Seth Amritwar Marg, BDD Chawl, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400018, India",G/S,Blue,0.0,5.0
+92,92,18.99626048305448,72.81482888043145,"BDD Chawl, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 40013, India",G/S,Blue,0.0,5.0
+93,93,19.003495024065693,72.82764953105583,"BDD Chawl, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400013, India",G/S,Blue,0.0,5.0
+94,94,18.9861379567609,72.82723845533845,"Laxmi Puja Apartments, Junior Boricha Marg, BDD Chawl, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400027, India",G/S,Blue,0.0,5.0
+95,95,19.00972574341402,72.82980109814788,"Crown Mills, New Prabhadevi Marg, BDD Chawl, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400013, India",G/S,Blue,0.0,5.0
+96,96,19.01149667888298,72.82578022054159,"R B Anant Desi Marg, BDD Chawl, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400025, India",G/S,Blue,0.0,5.0
+97,97,19.01595917144568,72.82937572223527,"Ravindra Natya Mandir, Sayani Marg, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400025, India",G/S,Blue,0.0,5.0
+98,98,19.0171681145523,72.82655398727022,"P Balu Marg, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400025, India",G/S,Blue,0.0,5.0
+99,99,19.01245929740808,72.82846416293373,"Standard Mills, Appasaheb Marathe Marg, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400025, India",G/S,Blue,0.0,5.0
+100,100,19.01239957080266,72.83021300585361,"J A Ravil Marg, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400025, India",G/S,Blue,0.0,5.0
+101,101,19.00000241760243,72.82147289780036,"Professor Narendra Ganpat Bansode Marg, BDD Chawl, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400018, India",G/S,Blue,0.0,5.0
+102,102,19.01706077910868,72.85842755262297,"D S Baretto Road, Wadala Village, F/N Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400031, India",F/N,Blue,0.0,5.0
+103,103,19.01757143368614,72.85470573257719,"Wadala Market, Katrak Road, Wadala Village, F/N Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400031, India",F/N,Blue,0.0,5.0
+104,104,19.01297856528776,72.85128565165688,"F/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400031, India",F/N,Blue,0.0,5.0
+105,105,19.02479940254987,72.86654970070214,"Dosti Club House, Barkat Ali Dargah Road, Barkat Ali Nagar, F/N Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400037, India",F/N,Blue,0.0,5.0
+106,106,19.03795160807325,72.85956456476535,"Agarwada Colony, F/N Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, BOUNDARY, India",F/N,Blue,0.0,5.0
+107,107,19.03482733781931,72.85716533089919,"Bhaudaji Road Extension, Agarwada Colony, F/N Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, BOUNDARY, India",F/N,Blue,0.0,5.0
+108,108,19.02367680249057,72.86751984937196,"Barkat Ali Nagar, F/N Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400037, India",F/N,Blue,0.0,5.0
+109,109,19.02543730124513,72.85979452744795,"Shamala Apartment, Scheme 57 Road no.14A, Nadkarni Park, F/N Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400019, India",F/N,Blue,0.0,5.0
+110,110,19.03408418379157,72.86449421138708,"G Dardi Marg, Agarwada Colony, F/N Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400022, India",F/N,Blue,0.0,5.0
+111,111,19.011613177009572,72.85651402577717,"Wadala Village, F/N Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400033, India",F/N,Blue,0.0,5.0
+112,112,19.02144220299746,72.84822927534336,"Indian Education Society, Scheme 5 Road no.6, Wadala Village, F/N Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400014, India",F/N,Blue,0.0,5.0
+113,113,19.03344767921452,72.85931359583236,"Laxmibai Kelkar Marg, Agarwada Colony, F/N Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400019, India",F/N,Blue,0.0,5.0
+114,114,19.035278110543352,72.84033859611871,"Gupte Maternity and Surgical Home, Lt Dilip Gupte Marg, VSNL Colony, G/N Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400016, India",G/N,Blue,0.0,5.0
+115,115,19.0333931924099,72.84237937734926,"Lady Jamshedji Road, VSNL Colony, G/N Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400016, India",G/N,Blue,0.0,5.0
+116,116,19.042526234360782,72.84860047423223,"60 Feet Road, Cooperative Housing Society, Dharavi, Zone 2, Mumbai, Mumbai City, Maharashtra, BOUNDARY, India",G/N,Blue,0.0,5.0
+117,117,19.04363890009815,72.84995790092489,"Ayurseva Hospital, Dharavi Main Road, Dharavi, Zone 2, Mumbai, Mumbai City, Maharashtra, 400017, India",G/N,Blue,0.0,5.0
+118,118,19.02315925774155,72.83421819398318,"S K S Marg, VSNL Colony, G/N Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400028, India",G/N,Blue,0.0,5.0
+119,119,19.01837719743785,72.8376513452927,"K,W, Chitale Marg, G/N Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400028, India",G/N,Blue,0.0,5.0
+120,120,19.01915250043507,72.83784110052099,"OMKAR SOCIETY, Dr Ratnakar Bhaindarkar Rd, G/N Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400028, India",G/N,Blue,0.0,5.0
+121,121,19.04185019360662,72.84822475800539,"Jasmine Mill Road, Dharavi, G/N Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, BOUNDARY, India",G/N,Blue,0.0,5.0
+122,122,19.00855350677077,72.83484827347749,"G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, India",G/N,Blue,0.0,5.0
+123,123,19.08515914687724,72.91089749451116,"Khushal Hospital and Maternity Home, Jethalal Parekh Road, Saibaba Nagar, N Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400077, India",N,Blue,1.0,1.0
+124,124,19.07538880001521,72.91242049986742,"bhavin medical stores, Vallabh Baug lane, Ramabai Sahakar Nagar, N Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400077, India",N,Blue,1.0,1.0
+125,125,19.23158763497941,72.83848845147135,"R/C Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400091, India",R/C,Blue,2.0,3.0
+126,126,19.236922689642338,72.84220703236862,"R/C Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400103, India",R/C,Blue,2.0,3.0
+127,127,19.2325083805349,72.86004746455633,"Mallapada, R/C Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400066, India",R/C,Blue,2.0,3.0
+128,128,19.2303818659108,72.82724671753233,"R/C Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400091, India",R/C,Blue,2.0,3.0
+129,129,19.216488857351422,72.84569676862795,"Saibaba Mandir Marg, R/C Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400092, India",R/C,Blue,2.0,3.0
+130,130,19.21832222222222,72.87079722222222,"Mallapada, R/C Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400101, India",R/C,Blue,2.0,3.0
+131,131,19.12302909043466,72.91637099186661,"Tirandaz, S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 40076, India",S,Blue,3.0,1.0
+132,132,19.121673990568873,72.93912895666385,"Kannamwar Nagar II, S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400083, India",S,Blue,3.0,1.0
+133,133,19.1447462723338,72.9329486837595,"Bhattipada, S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400 078, India",S,Blue,3.0,1.0
+134,134,19.14959293075718,72.94582136514299,"Bhandup Village East, S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400078, India",S,Blue,3.0,1.0
+135,135,19.148296662075108,72.94465870066692,"Bhandup Village West, S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400078, India",S,Blue,3.0,1.0
+136,136,19.12840599845547,72.9252540984618,"Lal Bahadur Shastri Marg, Chandan Nagar, S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400084, India",S,Blue,3.0,1.0
+137,137,19.118619444444448,72.91084166666667,"Birchwood, Central Avenue, Swami Narayan Nagar, S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400076, India",S,Blue,3.0,1.0
+138,138,19.154372222222218,72.94307500000002,"Bhandup Village Road, Bhandup Village West, S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400078, India",S,Blue,3.0,1.0
+139,139,19.166423532911647,72.92747930334731,"Amar Nagar, T Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400082, India",T,Blue,3.0,1.0
+140,140,19.17414334136941,72.96243320666285,"Neelam Nagar, T Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400081, India",T,Blue,3.0,1.0
+141,141,19.163394073847808,72.94483625566802,"Jain Mandir Marg, Sarvodaya Nagar, T Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 40081, India",T,Blue,3.0,1.0
+142,142,19.167266666666674,72.95730555555556,"Sadguru- Sharan I, Sant Ramdas Marg, Azad Nagar, T Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 40081, India",T,Blue,3.0,1.0
+143,143,19.24486717756416,72.84953588065856,"Shivaji Nagar, R/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400103, India",R/N,Blue,2.0,3.0
+144,144,19.248967016445807,72.85039501699657,"M.M.Hospital, Holy Cross Road, Shivaji Nagar, R/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400069, India",R/N,Blue,2.0,3.0
+145,145,19.24373489399126,72.84790500130553,"Vallabh Nagar Ring Road, Shivaji Nagar, R/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400103, India",R/N,Blue,2.0,3.0
+146,146,19.063308978354808,72.91688352098109,"New Gautam Nagar, M/E Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400044, India",M/E,Blue,1.0,1.0
+147,147,19.052558247385498,72.91082055166858,"Eastern Freeway, Shivneri Nagar, M/E Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400044, India",M/E,Blue,1.0,1.0
+148,148,19.051976602214104,72.92671793353959,"New Life Clinic & Hijama Center, D P Road, Lallubhai Compound, M/E Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400043, India",M/E,Blue,1.0,1.0
+149,149,19.06673682362068,72.91874730159053,"Plot No.17, M/E Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400044, India",M/E,Blue,1.0,1.0
+150,150,19.06853523898761,72.898013724631,"Road No. 2, M/W Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, India",M/W,Blue,1.0,1.0
+151,151,19.05924054971151,72.90605517320748,"Subhash Nagar, M/W Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400089, India",M/W,Blue,1.0,1.0
+152,152,19.06838820369764,72.9011893355638,"Road No 2, Pestom Sagar Colony, M/W Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400077, India",M/W,Blue,1.0,1.0
+153,153,19.062313400456897,72.90236590017484,"Prakash Thorat Marg, Phule Nagar, M/W Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400089, India",M/W,Blue,1.0,1.0
+154,154,19.058400730800262,72.9008028421443,"Road No 14, Subhash Nagar, M/W Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400089, India",M/W,Blue,1.0,1.0
+155,155,19.04671400004867,72.89526209991986,"Collector Colony, M/W Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400071, India",M/W,Blue,4.0,2.0
+156,156,19.06808990065536,72.89449589921708,"Amarpali Working Womens Hostel, Road No 4, Tilak Nagar, M/W Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400089, India",M/W,Blue,1.0,1.0
+157,157,19.046770113502422,72.89344832636205,"Inlaks General Hospital, Ramakrishna Chemburkar Marg (Ghatkopar Mahul Road), Collector Colony, M/W Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400074, India",M/W,Blue,4.0,2.0
+158,158,19.052655555555557,72.90986388888889,"Ashirwad Hospital and Polyclinic, Road No. 5, Ghatla Village, M/W Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400071, India",M/W,Blue,1.0,1.0
+159,159,19.05839722222222,72.90080277777777,"Road No 14, Subhash Nagar, M/W Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400089, India",M/W,Blue,1.0,1.0
+160,160,19.050525,72.89109166666667,"Acres Club, Sindhi Society Road Number 1, Sindhi Society, Chembur East, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400074, India",M/W,Blue,4.0,2.0
+161,161,19.06685555555556,72.8983388888889,"Tilak Nagar, M/W Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400089, India",M/W,Blue,1.0,1.0
+162,162,19.07699469548021,72.8670808280763,"Kalina Village, H/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400098, India",H/E,Blue,4.0,2.0
+163,163,19.079967228567288,72.85186629825503,"Pipeline Road, Vakola, H/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400055, India",H/E,Blue,5.0,2.0
+164,164,19.08091769997176,72.85052099978601,"Dutta Mandir Road, Dutta Mandir, H/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400055, India",H/E,Blue,5.0,2.0
+165,165,19.08417945767946,72.85655347802563,"Madraswadi, H/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400098, India",H/E,Blue,5.0,2.0
+166,166,19.055155555555558,72.84276388888887,"A K Marg (Station Road), Garib Nagar, H/W Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 40051, India",H/E,Blue,5.0,2.0
+167,167,19.085747222222217,72.84483611111109,"BMC Municipal School, Guru Narayan Marg, Prabhat Colony, H/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400055, India",H/E,Blue,5.0,2.0
+168,168,19.056758333333338,72.84176388888888,"Kherwadi Road, H/W Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 40051, India",H/E,Blue,5.0,2.0
+169,169,19.0647,72.85949722222222,"Mount Litera School International, Bandra Kurla Complex Road, H/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400 051, India",H/E,Blue,5.0,2.0
+170,170,19.06745,72.84631944444443,"busstand 1, Service Road, Gandhi Nagar, H/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 40051, India",H/E,Blue,5.0,2.0
+171,171,19.05641111111111,72.84412499999998,"Behram Pada, H/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 40051, India",H/E,Blue,5.0,2.0
+172,172,19.055155555555558,72.84276388888887,"A K Marg (Station Road), Garib Nagar, H/W Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 40051, India",H/E,Blue,5.0,2.0
+173,173,19.099524162733122,72.8503605096011,"Chakala Village, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400057, India",K/E,Blue,5.0,2.0
+174,174,19.11987853277129,72.85333609070445,"Azad Nagar, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400 099, India",K/E,Blue,5.0,2.0
+175,175,19.10846073173013,72.84741959275998,"K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400057, India",K/E,Blue,5.0,2.0
+176,176,19.12869021115957,72.86779607758177,"Holy Spirit Hospital, Mahakali Caves Road, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400093, India",K/E,Blue,5.0,2.0
+177,177,19.09401310101867,72.84439209980566,"Sant Chokha Mela Path, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 48335, India",K/E,Blue,5.0,2.0
+178,178,19.09573516189392,72.84659696670086,"K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400057, India",K/E,Blue,5.0,2.0
+179,179,19.11799970038123,72.87803739950975,"Seven Hills Hospital, Maroshi Village Road, Vijay Nagar, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400059, India",K/E,Blue,5.0,2.0
+180,180,19.09393493561787,72.84485483772468,"N P Thakkar Road, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 48335, India",K/E,Blue,5.0,2.0
+181,181,19.09641370006915,72.8491605002417,"Nariman Road, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400057, India",K/E,Blue,5.0,2.0
+182,182,19.13483348957451,72.86007485193495,"Shyam Nagar, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400060, India",K/E,Blue,5.0,2.0
+183,183,19.12611395329413,72.84809110081649,"Azad Nagar, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400069, India",K/E,Blue,5.0,2.0
+184,184,19.1054448851514,72.86005493244238,"V K Krishna Marg, Chakala Village, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400099, India",K/E,Blue,5.0,2.0
+185,185,19.12565764283596,72.88388967718569,"Bhavani Nagar, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, - 400072, India",K/E,Blue,5.0,2.0
+186,186,19.13468055555556,72.85989166666666,"Shyam Nagar, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400060, India",K/E,Blue,5.0,2.0
+187,187,19.097958333333327,72.85079444444443,"A sawant Marg, Chakala Village, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400057, India",K/E,Blue,5.0,2.0
+188,188,19.10656388888889,72.86858888888888,"Star Hub, Marol Pipeline Road, Sahar Gaon, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400059., India",K/E,Blue,5.0,2.0
+189,189,19.11530833333334,72.85383611111111,"DP Rd, Azad Nagar, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400 099, India",K/E,Blue,5.0,2.0
+190,190,19.111561111111108,72.84957777777777,"Sahar Road, Azad Nagar, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400057, India",K/E,Blue,5.0,2.0
+191,191,19.123991839976238,72.85027037811345,"Azad Nagar, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400069, India",K/E,Blue,5.0,2.0
+192,192,19.10033611111111,72.84599166666666,"Big Baazar, Shraddhanand Road, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400057, India",K/E,Blue,5.0,2.0
+193,193,19.17396856572831,72.84630525173975,"Techniplex (I), Goregaon Mulund Link Road, P/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400062, India",P/S,Blue,2.0,3.0
+194,194,19.14591470015221,72.85743459949869,"P/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400060, India",P/S,Blue,5.0,2.0
+195,195,19.17438190122677,72.85367340062878,"Swatantriya Sainik Late Shri Chiranjilal Murarka Marg, Yashodham, P/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400063, India",P/S,Blue,2.0,3.0
+196,196,19.17612409915269,72.84443979920837,"P/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400062, India",P/S,Blue,2.0,3.0
+197,197,19.17045159949196,72.84311890004268,"Motilal Nagar II, P/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400062, India",P/S,Blue,2.0,3.0
+198,198,19.15757853949804,72.83750158881226,"Motilal Nagar 1, P/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400104, India",P/S,Blue,2.0,3.0
+199,199,19.163212100162124,72.83504380033443,"Prarthana Hospital And ICU, Mahatma Gandhi Road, Motilal Nagar II, P/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400104, India",P/S,Blue,2.0,3.0
+200,200,19.15910000081551,72.84760200051514,"Jawahar Road No.2, Motilal Nagar 1, P/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400104, India",P/S,Blue,2.0,3.0
+201,201,19.1572488926613,72.83307611374319,"Bhagat Singh Nagar, P/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400104, India",P/S,Blue,2.0,3.0
+202,202,19.16066549990866,72.84871440038823,"Motilal Nagar 1, P/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400062, India",P/S,Blue,2.0,3.0
+203,203,19.16144100049506,72.83414650056405,"Motilal Nagar II, P/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400104, India",P/S,Blue,2.0,3.0
+204,204,19.15668789426761,72.84568018524112,"Dr. Bamis Fracture and Hand Clinic - Goregaon, Swami Vivekanand Road, Motilal Nagar 1, P/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400104, India",P/S,Blue,2.0,3.0
+205,205,19.16321944444444,72.83446944444444,"Motilal Nagar II, P/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400104, India",P/S,Blue,2.0,3.0
+206,206,19.15335,72.88556944444446,"Agaripada, P/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400087, India",P/S,Blue,5.0,2.0
+207,207,19.1909158540494,72.85697812795233,"Rai Pada, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400097, India",P/N,Blue,2.0,3.0
+208,208,19.19852462089984,72.83819434321698,"Dwarkesh Nursing Home, Shankar Lane, R/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400067, India",P/N,Blue,2.0,3.0
+209,209,19.184346695288802,72.85297987264853,"Sanjeevani Surgical and General Hospital, Kedarmal Road, Rai Pada, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400097, India",P/N,Blue,2.0,3.0
+210,210,19.16840665401436,72.88072014336265,"Nagari Niwara Colony, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400063, India",P/N,Blue,2.0,3.0
+211,211,19.190416699148578,72.8447859996975,"Vardhaman Iccu and Nursing Home, Kachipada Ramchandra Lane, Rai Pada, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400064, India",P/N,Blue,2.0,3.0
+212,212,19.18015358202469,72.8612810261699,"P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400097, India",P/N,Blue,2.0,3.0
+213,213,19.19130670024387,72.85477880019674,"Rai Pada, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400097, India",P/N,Blue,2.0,3.0
+214,214,19.179838852549942,72.86365680986357,"P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400097, India",P/N,Blue,2.0,3.0
+215,215,19.18579721799883,72.8190250943468,"Janakalyan Nagar, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400095, India",P/N,Blue,2.0,3.0
+216,216,19.18682590000995,72.8324187000668,"Rai Pada, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400064, India",P/N,Blue,2.0,3.0
+217,217,19.19517419911304,72.84173629979355,"Rai Pada, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400064, India",P/N,Blue,2.0,3.0
+218,218,19.193782791950646,72.85883772103061,"Rai Pada, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400097, India",P/N,Blue,2.0,3.0
+219,219,19.20169804237701,72.82654635237655,"Janakalyan Nagar, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400067, India",P/N,Blue,2.0,3.0
+220,220,19.197003491935327,72.82162947200584,"Janakalyan Nagar, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400095, India",P/N,Blue,2.0,3.0
+221,221,19.17624769790309,72.86790399039066,"General A K Vaidya Marg, Yashodham, P/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400063, India",P/N,Blue,2.0,3.0
+222,222,19.17896388888889,72.83315277777777,"Chincholi Bunder Road, Rai Pada, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400029, India",P/N,Blue,2.0,3.0
+223,223,19.18850277777778,72.85142499999998,"Rai Pada, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400097, India",P/N,Blue,2.0,3.0
+224,224,19.180008333333326,72.85639444444443,"P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400097, India",P/N,Blue,2.0,3.0
+225,225,19.19629166666667,72.8207861111111,"Janakalyan Nagar, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400095, India",P/N,Blue,2.0,3.0
+226,226,19.185830555555558,72.84183888888889,"Rai Pada, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400064, India",P/N,Blue,2.0,3.0
+227,227,19.18166944444445,72.84060833333334,"Rai Pada, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400064, India",P/N,Blue,2.0,3.0
+228,228,19.18349722222222,72.860225,"P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400097, India",P/N,Blue,2.0,3.0
+229,229,19.201983333333327,72.82565555555556,"Janakalyan Nagar, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400067, India",P/N,Blue,2.0,3.0
+230,230,19.20215161687704,72.84855214198849,"Parekh Gully, R/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400067, India",R/S,Blue,2.0,3.0
+231,231,19.196242999575013,72.87789759893799,"R/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400101, India",R/S,Blue,2.0,3.0
+232,232,19.20057779943126,72.86807219901338,"Akurli Road, R/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400101, India",R/S,Blue,2.0,3.0
+233,233,19.207360335333213,72.81977715259843,"Charkop Village, R/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400095, India",R/S,Blue,2.0,3.0
+234,234,19.21036570278617,72.86568642480606,"R/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400101, India",R/S,Blue,2.0,3.0
+235,235,19.19827942239157,72.85432179120785,"Kalptaru Gardens, M B Desai Road, R/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400101, India",R/S,Blue,2.0,3.0
+236,236,19.211616657753172,72.84251673249412,"R/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400067, India",R/S,Blue,2.0,3.0
+237,237,19.211322522391512,72.8732946446191,"Dhoni & Kohli, Gokul Tower Rd, R/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400101, India",R/S,Blue,2.0,3.0
+238,238,19.19821808559484,72.85702182052151,"Chakravarty Ashok Road, R/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400101, India",R/S,Blue,2.0,3.0
+239,239,19.21301532345382,72.8415009464576,"Raj Arcade, Boraspada Road, R/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400067, India",R/S,Blue,2.0,3.0
+240,240,19.21185534157447,72.8516418566863,"Kandivali Telephone Exchange, Swami Vivekanand Road, R/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400067, India",R/S,Blue,2.0,3.0
+241,241,19.19505911291497,72.86733716483545,"R/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400101, India",R/S,Blue,2.0,3.0
+242,242,19.201418785753752,72.84210039343505,"Kailash Heights, Irani Wadi Road No 3, R/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400067, India",R/S,Blue,2.0,3.0
+243,243,19.20661649962296,72.85040409871917,"Swami Vivekanand Road, R/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400067, India",R/S,Blue,2.0,3.0
+244,244,19.20827467432127,72.8323169699333,"RNA Royale Park, Mahatma Gandhi Road, Charkop Village, R/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400067, India",R/S,Blue,2.0,3.0
+245,245,19.21211643273198,72.8407474657047,"R/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400067, India",R/S,Blue,2.0,3.0
+246,246,19.20050555555556,72.84860277777777,"Shree Kandivali Hitwardhak Mandal, Shantilal Modi Road, R/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400067, India",R/S,Blue,2.0,3.0
+247,247,19.1965,72.87746388888887,"R/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400101, India",R/S,Blue,2.0,3.0
+248,248,19.06527948071137,72.83153811906516,"Corner View, 15th Road, Adarsh Nagar, H/W Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400050, India",H/W,Blue,5.0,2.0
+249,249,19.061840796986424,72.82633841875634,"Malla, Bandra West, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400050, India",H/W,Blue,5.0,2.0
+250,250,19.051107453572353,72.83811031175144,"Quresh Nagar Hutment Colony, Bandra West, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400050, India",H/W,Blue,5.0,2.0
+251,251,19.07186710058384,72.8318948005787,"HDFC Bank ATM, 15th Road, Adarsh Nagar, H/W Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400052, India",H/W,Blue,5.0,2.0
+252,252,19.05134486335542,72.8380213116709,"Quresh Nagar Hutment Colony, Bandra West, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400050, India",H/W,Blue,5.0,2.0
+253,253,19.06804209869329,72.83035969975268,"Livewel Service Apartment, SAT Kartar Building, Plot 357, 21st Road, Pali Hill, H/W Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400050, India",H/W,Blue,5.0,2.0
+254,254,19.05463498042277,72.83236681467744,"Andrew Villa, Ice Factory Lane, Vaidya Nagar, Bandra West, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400050, India",H/W,Blue,5.0,2.0
+255,255,19.074489202227788,72.83698530110755,"10th Road, Ram Krishna Nagar, H/W Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400052, India",H/W,Blue,5.0,2.0
+256,256,19.0706594480422,72.83625993371662,"10th Road, Ram Krishna Nagar, H/W Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400052, India",H/W,Blue,5.0,2.0
+257,257,19.05194474637618,72.82233891647793,"Clergy Home, 58, Byramji Jeejeebhoy Road, Bandra West, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400050, India",H/W,Blue,5.0,2.0
+258,258,19.075544332462037,72.83448866460276,"South Avenue, Ram Krishna Nagar, H/W Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400052, India",H/W,Blue,5.0,2.0
+259,259,19.065974782200502,72.83273244196468,"Surya Kiran, 462, 14th Road, Linking Road Shopping area, H/W Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400050, India",H/W,Blue,5.0,2.0
+260,260,19.08453970876808,72.83558818667073,"Three Wise Men, Juhu Tara Road, H/W Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400054, India",H/W,Blue,5.0,2.0
+261,261,19.055077171044513,72.83742301752646,"Mahatma Gandhi Seva Mandir Blood Bank, Swami Vivekanand Road, Quresh Nagar Hutment Colony, Bandra West, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400050, India",H/W,Blue,5.0,2.0
+262,262,19.05430541895303,72.83356766766191,"D'monte Street, Quresh Nagar Hutment Colony, Bandra West, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400050, India",H/W,Blue,5.0,2.0
+263,263,19.05524444444444,72.8309222222222,"Jai Jawan Store, Hill Road, Vaidya Nagar, Bandra West, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400050, India",H/W,Blue,5.0,2.0
+264,264,19.07056570056708,72.88114190134193,"Naware Baug Jagruti Nagar, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400024, India",L,Blue,4.0,2.0
+265,265,19.08448019897095,72.88669256813886,"naupada, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400070, India",L,Blue,4.0,2.0
+266,266,19.05176531629363,72.86876974986347,"Chuna Bhatti, BKC - Eastern Express Highway Road, H/E Ward, Zone 5, Mumbai, Mumbai City, Maharashtra, 400 022, India",L,Blue,4.0,2.0
+267,267,19.06890780056952,72.88148879845679,"Naware Baug Jagruti Nagar, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400024, India",L,Blue,4.0,2.0
+268,268,19.07043859962363,72.88029069897017,"Kurla Nursing Room, Pipe Line Road, Hallow Pul, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400070, India",L,Blue,4.0,2.0
+269,269,19.07624796577155,72.87818323246718,"Hallow Pul, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400070, India",L,Blue,4.0,2.0
+270,270,19.06792045384607,72.8810230111973,"Naware Baug Jagruti Nagar, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400024, India",L,Blue,4.0,2.0
+271,271,19.07724122656829,72.88068201295805,"Hallow Pul, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400070, India",L,Blue,4.0,2.0
+272,272,19.068459533772238,72.87994922319201,"Naware Baug Jagruti Nagar, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400024, India",L,Blue,4.0,2.0
+273,273,19.08880801981999,72.89366247293003,"Narayan Nagar, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400 072, India",L,Blue,4.0,2.0
+274,274,19.07045983273889,72.88440876569666,"Naware Baug Jagruti Nagar, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400024, India",L,Blue,4.0,2.0
+275,275,19.08335845453444,72.88161523094854,"Sheetal talao road, Sunder Baug, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400070, India",L,Blue,4.0,2.0
+276,276,19.07038888888889,72.87995555555554,"Kurla Nursing Room, Pipe Line Road, Hallow Pul, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400070, India",L,Blue,4.0,2.0
+277,277,19.07611944444444,72.8788861111111,"Hallow Pul, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400070, India",L,Blue,4.0,2.0
+278,278,19.07444722222222,72.88048055555555,"Bal Hanuman Mandir, Santa Cruz – Chembur Link Road, Hallow Pul, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400070, India",L,Blue,4.0,2.0
+279,279,19.07056666666667,72.88114166666666,"Naware Baug Jagruti Nagar, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400024, India",L,Blue,4.0,2.0
+280,280,19.07529444444445,72.87358611111111,"Santa Cruz – Chembur Link Road, Hallow Pul, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400070, India",L,Blue,4.0,2.0
+281,281,19.06301388888889,72.88560277777779,"Shree Harishwar Marg, Naware Baug Jagruti Nagar, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400024, India",L,Blue,4.0,2.0
+282,282,19.06934722222222,72.88129444444444,"Naware Baug Jagruti Nagar, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400024, India",L,Blue,4.0,2.0
+283,283,19.07038055555556,72.88439722222223,"Naware Baug Jagruti Nagar, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400024, India",L,Blue,4.0,2.0
+284,284,19.07538888888889,72.88315833333333,"building 8, Masrani Lane, Hallow Pul, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400070, India",L,Blue,4.0,2.0
+285,285,19.08418333333333,72.87963055555555,"Jarimari, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400070, India",L,Blue,4.0,2.0
+286,286,19.07345277777778,72.8812583333333,"Pipe Line Road, Hallow Pul, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400070, India",L,Blue,4.0,2.0
+287,287,19.077947222222218,72.8817,"Hallow Pul, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400070, India",L,Blue,4.0,2.0
+288,288,19.082958333333327,72.88159999999998,"Bhakti Vilas Apartment, 214/1-8, Magan Nathuram Road, Hallow Pul, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400070, India",L,Blue,4.0,2.0
+289,289,19.06064444444445,72.88725833333334,"L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400024, India",L,Blue,4.0,2.0
+290,290,19.068422222222217,72.87994444444443,"Naware Baug Jagruti Nagar, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400024, India",L,Blue,4.0,2.0
+291,291,19.08861388888889,72.89437222222223,"Narayan Nagar, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400 072, India",L,Blue,4.0,2.0
+292,292,19.05531388888889,72.87068888888888,"Reliance Industries Ltd, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400 022, India",L,Blue,4.0,2.0
+293,293,19.07719166666667,72.88201388888888,"Pipe Line Road, Hallow Pul, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400070, India",L,Blue,4.0,2.0
+294,294,18.918206796169923,72.82466783514951,"Captain Prakash Pethe Marg, A Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400005, India",A,Red,0.0,5.0
+295,295,18.96328096600007,72.82193869700006,"Patthe Bapurao Marg (Falkland Road), Chikalwadi, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400004, India",D,Red,0.0,5.0
+296,296,18.97121786300005,72.81615550800007,"Kappawala Fire Temple, Awabai Kashinath Street, Cowasji Jehangir Colony, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400034, India",D,Red,0.0,5.0
+297,297,18.965689033000046,72.82384359100006,"R S Nimkar Marg, Chikalwadi, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400004, India",D,Red,0.0,5.0
+298,298,18.963369322000066,72.82348913300005,"Chikalwadi, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400004, India",D,Red,0.0,5.0
+299,299,18.96102937556583,72.82614395453689,"Trimbak Parshuram Street, C Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400004, India",D,Red,0.0,5.0
+300,300,18.97920903427471,72.82740639624978,"E Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400027, India",E,Red,0.0,5.0
+301,301,18.965529888002422,72.82531287437564,"8th Lane, E Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400004, India",E,Red,0.0,5.0
+302,302,18.969712641651057,72.84194449407566,"E Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400008, India",E,Red,0.0,5.0
+303,303,18.96280629630638,72.8318085019407,"E Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400004, India",E,Red,0.0,5.0
+304,304,19.00588495770202,72.85492723138128,"Sewri Cross Road, Sadbhavana Nagar, F/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400033, India",F/S,Red,0.0,5.0
+305,305,19.005503355502398,72.85497499323805,"Sewri Cross Road, Sadbhavana Nagar, F/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400033, India",F/S,Red,0.0,5.0
+306,306,19.017987179000045,72.81980024300003,"G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400030, India",G/S,Red,0.0,5.0
+307,307,19.005198476000032,72.82053658800005,"SIEMENS Information Systems Ltd., H R Divekar Marg, BDD Chawl, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400030, India",G/S,Red,0.0,5.0
+308,308,19.00195741300007,72.81694836500003,"ESIS Hospital WORLI, Ganpat Jadhav Marg, BDD Chawl, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400018, India",G/S,Red,0.0,5.0
+309,309,19.00170974800005,72.81849399200007,"BDD Chawl, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 40013, India",G/S,Red,0.0,5.0
+310,310,19.018673800000048,72.81916850800008,"V B Worlikar Marg, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400030, India",G/S,Red,0.0,5.0
+311,311,19.001004932000054,72.81754334100003,"BDD Chawl, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 40013, India",G/S,Red,0.0,5.0
+312,312,19.018357159000058,72.81840243300006,"G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400030, India",G/S,Red,0.0,5.0
+313,313,19.017961991000053,72.81869763300006,"G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400030, India",G/S,Red,0.0,5.0
+314,314,19.01787524200006,72.81815676500008,"G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400030, India",G/S,Red,0.0,5.0
+315,315,19.01939522200007,72.81872934700004,"V B Worlikar Marg, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400030, India",G/S,Red,0.0,5.0
+316,316,19.01952039100007,72.81786931500005,"G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400030, India",G/S,Red,0.0,5.0
+317,317,19.01901215700008,72.81788612000008,"G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400030, India",G/S,Red,0.0,5.0
+318,318,19.0097346,72.8255543,"Century Mills, Sadanand Hasu Tandel Marg, BDD Chawl, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400030, India",G/S,Red,0.0,5.0
+319,319,19.02163552269838,72.81812809953695,"G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400030, India",G/S,Red,0.0,5.0
+320,320,19.0185886,72.81882490000001,"V B Worlikar Marg, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400030, India",G/S,Red,0.0,5.0
+321,321,19.017470463954442,72.8202652293119,"Worli Village, V B Worlikar Marg, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400030, India",G/S,Red,0.0,5.0
+322,322,19.01751015045863,72.82032885506361,"Worli Village, V B Worlikar Marg, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400030, India",G/S,Red,0.0,5.0
+323,323,19.01751015045863,72.82032885506361,"Worli Village, V B Worlikar Marg, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400030, India",G/S,Red,0.0,5.0
+324,324,19.01728557984215,72.82028873932421,"Worli Village, V B Worlikar Marg, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400030, India",G/S,Red,0.0,5.0
+325,325,19.01848536837272,72.81933247601101,"G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400030, India",G/S,Red,0.0,5.0
+326,326,18.99259722335193,72.81860268592595,"Jeejamata Nagar, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400018, India",G/S,Red,0.0,5.0
+327,327,18.992755725246422,72.81922314393609,"Jeejamata Nagar, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400018, India",G/S,Red,0.0,5.0
+328,328,18.99259722335193,72.81860268592595,"Jeejamata Nagar, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400018, India",G/S,Red,0.0,5.0
+329,329,18.99230948632588,72.81832995692092,"Jeejamata Nagar, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400018, India",G/S,Red,0.0,5.0
+330,330,18.992883642534288,72.81993259850988,"Jeejamata Nagar, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400018, India",G/S,Red,0.0,5.0
+331,331,19.02170972486743,72.81807286522105,"Koliwada, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400025, India",G/S,Red,0.0,5.0
+332,332,19.02170022182498,72.81808054625674,"Koliwada, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400025, India",G/S,Red,0.0,5.0
+333,333,19.014363889000037,72.82412777800005,"Chemist, Old Prabhadevi Marg, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400025, India",G/S,Red,0.0,5.0
+334,334,18.99245833300006,72.81870000000005,"Jeejamata Nagar, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400018, India",G/S,Red,0.0,5.0
+335,335,19.02296329441896,72.8707374045943,"Sangam Nagar, F/N Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400037, India",F/N,Red,0.0,5.0
+336,336,19.028044519278943,72.87339361227305,"Bharatiya Kamala Nagar, F/N Ward, Zone 2, Bharathiya Kamala Nagar, Mumbai City, Maharashtra, 400037, India",F/N,Red,0.0,5.0
+337,337,19.0276777,72.87024559999998,"CGS Colony, F/N Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400037, India",F/N,Red,0.0,5.0
+338,338,19.02245524219123,72.87035876203905,"Sangam Nagar, F/N Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400037, India",F/N,Red,0.0,5.0
+339,339,19.01594201636252,72.86459743933851,"Korba Mithagar, F/N Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400011, India",F/N,Red,0.0,5.0
+340,340,19.041691972000024,72.85052482000003,"Dharavi, Zone 2, Mumbai, Mumbai City, Maharashtra, BOUNDARY, India",G/N,Red,0.0,5.0
+341,341,19.047690380000066,72.85787174600006,"Dharavi, Zone 2, Mumbai, Mumbai City, Maharashtra, 400017, India",G/N,Red,0.0,5.0
+342,342,19.03926740300005,72.85491353500005,"Machine Shop, 90 Feet Road, Dharavi, Zone 2, Mumbai, Mumbai City, Maharashtra, BOUNDARY, India",G/N,Red,0.0,5.0
+343,343,19.04372482200006,72.85004247900008,"Rizwan Raza, Dharavi Main Road, Dharavi, Zone 2, Mumbai, Mumbai City, Maharashtra, 400017, India",G/N,Red,0.0,5.0
+344,344,19.0414773,72.84845370000001,"Jasmine Mill Road, Dharavi, G/N Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, BOUNDARY, India",G/N,Red,0.0,5.0
+345,345,19.07161731800005,72.91683116200005,"Bhairav Vidyalay, Kamaraj Nagar Road, Kamaraj Nagar, N Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400044, India",N,Red,1.0,1.0
+346,346,19.095314477000045,72.89974726700007,"Narayan Nagar, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400086, India",N,Red,4.0,2.0
+347,347,19.095790587000067,72.90520535100006,"Varsha Nagar, N Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400086, India",N,Red,4.0,2.0
+348,348,19.096917292000054,72.90261551100008,"Jagdusha Nagar, N Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400086, India",N,Red,4.0,2.0
+349,349,19.095472555000068,72.90107516000006,"Ram Joshi Marg, Azad Nagar, N Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400086, India",N,Red,4.0,2.0
+350,350,19.097618392000076,72.90351675400007,"Jagdusha Nagar, N Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400086, India",N,Red,4.0,2.0
+351,351,19.104374972000073,72.91610807900008,"Varsha Nagar, N Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400079, India",N,Red,4.0,2.0
+352,352,19.095527121000032,72.90004929700007,"R B Kadam Road, Azad Nagar, N Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400086, India",N,Red,4.0,2.0
+353,353,19.095919700000024,72.90551690000007,"Varsha Nagar, N Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400086, India",N,Red,4.0,2.0
+354,354,19.099685300000036,72.90289370000005,"Azad Nagar, N Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400086, India",N,Red,4.0,2.0
+355,355,19.093636238000048,72.90381498400006,"jalaram mandir, R B Kadam Road, Azad Nagar, N Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400086, India",N,Red,4.0,2.0
+356,356,19.09933250000006,72.90286780000008,"Jagdusha Nagar, N Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400086, India",N,Red,4.0,2.0
+357,357,19.10205000000008,72.90877440000007,"Varsha Nagar, N Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400079, India",N,Red,4.0,2.0
+358,358,19.07452552800004,72.91376147700005,"Kamaraj Nagar, N Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400077, India",N,Red,1.0,1.0
+359,359,19.09927369900004,72.91670991800005,"R City Phase One, Road Number 6, Amrut Nagar, N Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400075, India",N,Red,4.0,2.0
+360,360,19.072405400000036,72.91409200000005,"Kamaraj Nagar Road, Kamaraj Nagar, N Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400044, India",N,Red,1.0,1.0
+361,361,19.090333709000053,72.89895949700008,"Azad Nagar, N Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400086, India",N,Red,4.0,2.0
+362,362,19.162790067000056,72.93112210400004,"Tembhipada Road, T Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400 078, India",S,Red,3.0,1.0
+363,363,19.12836161100006,72.93512059200003,"Police Station Road, Nutan Nagar, S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400042, India",S,Red,3.0,1.0
+364,364,19.124300408000067,72.91806422900004,"Tirandaz, S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 40076, India",S,Red,3.0,1.0
+365,365,19.115775391000053,72.93326254600005,"S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400083, India",S,Red,3.0,1.0
+366,366,19.13608530600004,72.93850292400003,"auto parking road, Kanjur Village, S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400042, India",S,Red,3.0,1.0
+367,367,19.160508221000047,72.92951270200007,"Tembhipada Road, T Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400 078, India",S,Red,3.0,1.0
+368,368,19.16344982000004,72.93592354700006,"Hussainia Chowk, , Sonapur, S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400082, India",S,Red,3.0,1.0
+369,369,19.161125259000073,72.92957415400008,"Khindipada Viewpoint, Duck Line Road, T Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400 078, India",S,Red,3.0,1.0
+370,370,19.140058533000055,72.92969351400006,"Jamil Nagar, S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400042, India",S,Red,3.0,1.0
+371,371,19.158230980000038,72.93480833000007,"Sonapur, S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400 078, India",S,Red,3.0,1.0
+372,372,19.163992113000067,72.93615200100005,"T Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400082, India",S,Red,3.0,1.0
+373,373,19.15105310000007,72.93590310000008,"Gaon Devi mandir, Milind Nagar, S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400078, India",S,Red,3.0,1.0
+374,374,19.158754357000078,72.92865383400004,"Duck Line Road, T Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400 078, India",S,Red,3.0,1.0
+375,375,19.131179050000068,72.93502045000008,"Aniket Nursing Home, Veer Savarkar Road, Chhatrapati Nagar, S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400042, India",S,Red,3.0,1.0
+376,376,19.124386924000078,72.91879652000007,"Ramabai Ambedkar Nagar, S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 40076, India",S,Red,3.0,1.0
+377,377,19.117625800000038,72.93276860000003,"S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400083, India",S,Red,3.0,1.0
+378,378,19.135759767000025,72.93830499300003,"auto parking road, Kanjur Village, S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400042, India",S,Red,3.0,1.0
+379,379,19.12014080000006,72.92926630000005,"S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400083, India",S,Red,3.0,1.0
+380,380,19.165588204000073,72.95062667900004,"Indira Nagar, T Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 40081, India",T,Red,3.0,1.0
+381,381,19.166010079000046,72.93510986200005,"Phase-II, Goregaon Mulund Link Road, T Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400082, India",T,Red,3.0,1.0
+382,382,19.166543250000075,72.95051435000005,"Suyog Hospital and Iccu, Pandit Jawaharlal Nehru Road, Vaithara Nagar, T Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400080, India",T,Red,3.0,1.0
+383,383,19.240900619000055,72.85999383000006,"Shivaji Nagar, R/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400068, India",R/N,Red,2.0,3.0
+384,384,19.257301175000066,72.87505035500004,"Vaishali Nagar, R/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 401202, India",R/N,Red,2.0,3.0
+385,385,19.25545295900002,72.86739020700003,"Dyanmudra, C S Link Road, Vaishali Nagar, R/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400068, India",R/N,Red,2.0,3.0
+386,386,19.239500216000067,72.86063629500006,"D N Dube Road, Shivaji Nagar, R/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400068, India",R/N,Red,2.0,3.0
+387,387,19.255298550000077,72.87584095000005,"Vaishali Nagar, R/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 401202, India",R/N,Red,2.0,3.0
+388,388,19.256246300000047,72.86491405000005,"Vaishali Nagar, R/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400068, India",R/N,Red,2.0,3.0
+389,389,19.051796358000047,72.92460261200006,"Deonar Colony, M/E Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400088, India",M/E,Red,1.0,1.0
+390,390,19.038646121000053,72.94986531200004,"dosti hotel, Balaji Mandir Road, Payal Pada, M/E Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400088, India",M/E,Red,1.0,1.0
+391,391,19.06361537900005,72.92666335800006,"Plot No.20, M/E Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400043, India",M/E,Red,1.0,1.0
+392,392,19.04327898100007,72.90931475200007,"Shivneri Nagar, M/E Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400088, India",M/E,Red,1.0,1.0
+393,393,19.034097449000054,72.89680688200008,"M/W Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400074, India",M/E,Red,4.0,2.0
+394,394,19.067503986000077,72.92123974200007,"New Gautam Nagar, M/E Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400043, India",M/E,Red,1.0,1.0
+395,395,19.064819291000052,72.92377942100006,"Plot no.19, M/E Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400043, India",M/E,Red,1.0,1.0
+396,396,19.06097900000003,72.92562700000008,"Sanjay Nagar I, M/E Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400043, India",M/E,Red,1.0,1.0
+397,397,19.06380500000006,72.92309720000003,"Road Number 5, Milan Colony, M/E Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400043, India",M/E,Red,1.0,1.0
+398,398,19.06461470000005,72.92438060000006,"Plot no.19, M/E Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400043, India",M/E,Red,1.0,1.0
+399,399,19.056939889000034,72.91423245000004,"Deonar Road, Tata Nagar, M/E Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400044, India",M/E,Red,1.0,1.0
+400,400,19.033516000000077,72.89617030000005,"M/W Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400074, India",M/E,Red,4.0,2.0
+401,401,19.035593864000077,72.89408415300005,"Maraoli Village, M/W Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400074, India",M/W,Red,4.0,2.0
+402,402,19.06243539200005,72.90668143500005,"panjabi chull, Panjabi chull, Rahul Nagar, M/W Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400089, India",M/W,Red,1.0,1.0
+403,403,19.03067654800003,72.89648767400006,"Ramakrishna Chemburkar Marg (Ghatkopar Mahul Road), Collector Colony, M/W Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400074, India",M/W,Red,4.0,2.0
+404,404,19.061277731000075,72.90787836400007,"janta raod, Adarsh Nagar, M/W Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400089, India",M/W,Red,1.0,1.0
+405,405,19.04678400000006,72.89541220000007,"Collector Colony, M/W Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400071, India",M/W,Red,4.0,2.0
+406,406,19.031168765000075,72.89623193800003,"Ramakrishna Chemburkar Marg (Ghatkopar Mahul Road), Collector Colony, M/W Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400074, India",M/W,Red,4.0,2.0
+407,407,19.044386648000053,72.88954491700008,"Collector Colony, M/W Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400074, India",M/W,Red,4.0,2.0
+408,408,19.061279200000055,72.90818430000007,"P.L. Lokhande Marg, Adarsh Nagar, M/W Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400044, India",M/W,Red,1.0,1.0
+409,409,19.05180250000007,72.88662380000005,"Chembur Colony, M/W Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400071, India",M/W,Red,4.0,2.0
+410,410,19.080310712000028,72.85698821900006,"Vakola Village, H/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400098, India",H/E,Red,5.0,2.0
+411,411,19.07578720900005,72.86058542000006,"Durga Maternity and Surgical Nursing Home, Vidya Nagari Marg, Mathuradas Colony, H/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400098, India",H/E,Red,5.0,2.0
+412,412,19.07834762300007,72.84564794800008,"V. N. Desai Municipal Hospital, Road No 11, Sen Nagar, H/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400055, India",H/E,Red,5.0,2.0
+413,413,19.055734882000024,72.84233838600005,"A K Marg (Station Road), Garib Nagar, H/W Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 40051, India",H/E,Red,5.0,2.0
+414,414,19.058336590000067,72.84446533900007,"Gandhi Nagar, H/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 40051, India",H/E,Red,5.0,2.0
+415,415,19.077064403000065,72.84410425200008,"Prerana Nursing Home, Road No 4, Hanuman Tekdi, H/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400055, India",H/E,Red,5.0,2.0
+416,416,19.06253580200007,72.85837049100006,"H/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400 051, India",H/E,Red,5.0,2.0
+417,417,19.07747605800006,72.84585164400005,"Dauri Nagar, H/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400055, India",H/E,Red,5.0,2.0
+418,418,19.057122126000024,72.84257840900004,"Behram Pada, H/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 40051, India",H/E,Red,5.0,2.0
+419,419,19.06255622300006,72.84389299600008,"Shivajinagar, H/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 40051, India",H/E,Red,5.0,2.0
+420,420,19.079634501000047,72.84805043900008,"Jawaharlal Nehru Road, Vakola, H/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400055, India",H/E,Red,5.0,2.0
+421,421,19.074442364660822,72.84233563066293,"H/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400055, India",H/E,Red,5.0,2.0
+422,422,19.0567414,72.84165109999998,"Kherwadi Road, H/W Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 40051, India",H/E,Red,5.0,2.0
+423,423,19.08701255492469,72.8454124223478,"H/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400055, India",H/E,Red,5.0,2.0
+424,424,19.0650798,72.85657690000001,"H/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400 051, India",H/E,Red,5.0,2.0
+425,425,19.08154070356635,72.85412494816595,"Jawaharlal Nehru Road, Vakola, H/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400055, India",H/E,Red,5.0,2.0
+426,426,19.056800000000067,72.84181944400007,"Kherwadi Road, H/W Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 40051, India",H/E,Red,5.0,2.0
+427,427,19.133692270000036,72.85877406700007,"Shyam Nagar, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400060, India",K/E,Red,5.0,2.0
+428,428,19.139143697000065,72.85325870700007,"Balasaheb Thackeray Flyover, Pratap Nagar, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400060, India",K/E,Red,5.0,2.0
+429,429,19.14083695100004,72.86139945800005,"Shyam Nagar, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400060, India",K/E,Red,5.0,2.0
+430,430,19.13219749090547,72.85625580658747,"Aghadi Nagar, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400069, India",K/E,Red,5.0,2.0
+431,431,19.10794573436695,72.8589177997727,"Ratna Mahal, Cardinal Gracias Road, Chakala Village, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400 099, India",K/E,Red,5.0,2.0
+432,432,19.133511052416146,72.85791979528605,"Gufa Tekdi, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400060, India",K/E,Red,5.0,2.0
+433,433,19.12680647922856,72.84890382165267,"Azad Nagar, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400069, India",K/E,Red,5.0,2.0
+434,434,19.0912396,72.8461938,"Prabhat Colony, H/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 48335, India",K/E,Red,5.0,2.0
+435,435,19.10444256955326,72.8588016868696,"M C Chagla Road, Chakala Village, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400099, India",K/E,Red,5.0,2.0
+436,436,19.11154079776221,72.86801623576561,"shri Ghanshamdas podhar vidyalay Rajasthani school, Mathuradas Vasanji Road (Andheri Kurla Road), Kondivita Village, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400059., India",K/E,Red,5.0,2.0
+437,437,19.138673022000035,72.85367576000004,"Gufa Tekdi, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400060, India",K/E,Red,5.0,2.0
+438,438,19.17184910000003,72.83825470000005,"Motilal Nagar II, P/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400062, India",P/S,Red,2.0,3.0
+439,439,19.16785555555556,72.83926944444444,"Motilal Nagar II, P/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400062, India",P/S,Red,2.0,3.0
+440,440,19.178116615000018,72.86212478200008,"P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400097, India",P/N,Red,2.0,3.0
+441,441,19.188094332000052,72.82356901900005,"Janakalyan Nagar, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400095, India",P/N,Red,2.0,3.0
+442,442,19.188412668000073,72.84977676700005,"Rai Pada, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400097, India",P/N,Red,2.0,3.0
+443,443,19.18816346500006,72.82285887600005,"Janakalyan Nagar, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400095, India",P/N,Red,2.0,3.0
+444,444,19.19040005500005,72.85752212500007,"Rai Pada, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400097, India",P/N,Red,2.0,3.0
+445,445,19.187443294000047,72.86468327900008,"P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400097, India",P/N,Red,2.0,3.0
+446,446,19.18497540800007,72.82080140400006,"Janakalyan Nagar, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400095, India",P/N,Red,2.0,3.0
+447,447,19.185602245000037,72.82084449000007,"Janakalyan Nagar, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400095, India",P/N,Red,2.0,3.0
+448,448,19.190499477000056,72.85939303400005,"Big Bazzar, Kandivali, Tanaji Nagar Road, Rai Pada, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400097, India",P/N,Red,2.0,3.0
+449,449,19.17825285500004,72.86223807000005,"P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400097, India",P/N,Red,2.0,3.0
+450,450,19.187794200000038,72.82361530000003,"Janakalyan Nagar, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400095, India",P/N,Red,2.0,3.0
+451,451,19.18817618300005,72.85088855200007,"Rai Pada, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400097, India",P/N,Red,2.0,3.0
+452,452,19.18952245300005,72.86554153700007,"P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400097, India",P/N,Red,2.0,3.0
+453,453,19.188322500000027,72.82310850000005,"Janakalyan Nagar, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400095, India",P/N,Red,2.0,3.0
+454,454,19.18975893400005,72.85685693800008,"Rai Pada, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400097, India",P/N,Red,2.0,3.0
+455,455,19.170750359000067,72.87787931800005,"Nagari Niwara Colony, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400063, India",P/N,Red,2.0,3.0
+456,456,19.185796100000058,72.81704633100003,"Janakalyan Nagar, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400095, India",P/N,Red,2.0,3.0
+457,457,19.184379031000052,72.82304687300005,"Janakalyan Nagar, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400095, India",P/N,Red,2.0,3.0
+458,458,19.180259400000068,72.86128000000008,"P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400097, India",P/N,Red,2.0,3.0
+459,459,19.17158700000005,72.87878300000007,"Nagari Niwara Colony, P/N Ward, Zone 4, Mumbai, Kulāba, Mumbai Suburban, Maharashtra, 400063, India",P/N,Red,2.0,3.0
+460,460,19.179022222000068,72.86228055600003,"Pathanwadi Road, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400097, India",P/N,Red,2.0,3.0
+461,461,19.19958938600007,72.86403704100006,"R/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400101, India",R/S,Red,2.0,3.0
+462,462,19.196305040000027,72.86486190000005,"R/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400101, India",R/S,Red,2.0,3.0
+463,463,19.198057222000045,72.85995734100005,"R/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400101, India",R/S,Red,2.0,3.0
+464,464,19.203754296000053,72.83185210800008,"Charkop Village, R/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400067, India",R/S,Red,2.0,3.0
+465,465,19.203413889000046,72.83129444400005,"Charkop Village, R/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400067, India",R/S,Red,2.0,3.0
+466,466,19.06622789900007,72.87619575100005,"P Keluskar Mg, Naware Baug Jagruti Nagar, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400024, India",L,Red,4.0,2.0
+467,467,19.09563540000005,72.89471325900006,"Narayan Nagar, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400 072, India",L,Red,4.0,2.0
+468,468,19.068773239000045,72.87925966100005,"Naware Baug Jagruti Nagar, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400024, India",L,Red,4.0,2.0
+469,469,19.08654117900005,72.88280617600003,"Khimji Punja Road, Sunder Baug, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400070, India",L,Red,4.0,2.0
+470,470,19.093230045000038,72.88264976100005,"Jarimari, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400 072, India",L,Red,4.0,2.0
+471,471,19.08654117900005,72.88280617600003,"Khimji Punja Road, Sunder Baug, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400070, India",L,Red,4.0,2.0
+472,472,19.06855084885717,72.87485988071177,"LBS Marg, Hallow Pul, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400070, India",L,Red,4.0,2.0
+473,473,19.071433062732037,72.88044628080176,"Kurla Nursing Room, Pipe Line Road, Hallow Pul, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400070, India",L,Red,4.0,2.0
+474,474,19.1023426,72.88829659999998,"Anil Lunch Home, 90 Feet Road, Sunder Baug, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400072, India",L,Red,4.0,2.0
+475,475,19.060336850000056,72.88454790000003,"S G Barve Marg (C S T Road), Sindhi Society, M/W Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400024, India",L,Red,4.0,2.0
+476,476,18.966234399999998,72.82341910000002,"Chikalwadi, D Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400004, India",D,Orange,0.0,5.0
+477,477,18.971766600000002,72.82660000000003,"G B 3rd Lane, E Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400008, India",E,Orange,0.0,5.0
+478,478,18.97563119840761,72.82953529948274,"E Ward, Zone 1, Mumbai, Mumbai City, Maharashtra, 400027, India",E,Orange,0.0,5.0
+479,479,19.007606488853103,72.85458910596239,"Dnyaneshwar Vidyalay, Sewri Cross Road, Sadbhavana Nagar, F/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400033, India",F/S,Orange,0.0,5.0
+480,480,19.00187573734854,72.8549131627703,"Sewri Cross Road, Sadbhavana Nagar, F/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400033, India",F/S,Orange,0.0,5.0
+481,481,19.0034957,72.8205292,"S N Munje Road, BDD Chawl, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400018, India",G/S,Orange,0.0,5.0
+482,482,19.018588599999987,72.81882490000005,"V B Worlikar Marg, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400030, India",G/S,Orange,0.0,5.0
+483,483,18.991418000000014,72.830998,"NM Joshi Marg Police Station, Sakubai Mohite Marg, BDD Chawl, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400013, India",G/S,Orange,0.0,5.0
+484,484,19.010202778000068,72.82756944400006,"Bombay Dyeing, J Bhatankar Marg, G/S Ward, Zone 2, Mumbai, Mumbai City, Maharashtra, 400013, India",G/S,Orange,0.0,5.0
+485,485,19.0726016,72.9133536,"Kamaraj Nagar Road, Kamaraj Nagar, N Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400044, India",N,Orange,1.0,1.0
+486,486,19.074711699999998,72.9176813,"Kamaraj Nagar, N Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400044, India",N,Orange,1.0,1.0
+487,487,19.0755087,72.8968572,"Sai Sagar, N Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400077, India",N,Orange,1.0,1.0
+488,488,19.165266493916175,72.93240774657114,"Rajaram Wadi, S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400082, India",S,Orange,3.0,1.0
+489,489,19.14012549246693,72.93015575547555,"Jamil Nagar, S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400042, India",S,Orange,3.0,1.0
+490,490,19.12486163375296,72.91693322250231,"Monginis Cake, Hare Krishna Road, Tirandaz, S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 40076, India",S,Orange,3.0,1.0
+491,491,19.12486105361848,72.9169122259238,"Monginis Cake, Hare Krishna Road, Tirandaz, S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 40076, India",S,Orange,3.0,1.0
+492,492,19.13606380465565,72.93824274348354,"Kanjur Village, S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400042, India",S,Orange,3.0,1.0
+493,493,19.1610323,72.9357215,"Sonapur, S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400 078, India",S,Orange,3.0,1.0
+494,494,19.139978550934263,72.93009298018791,"Jamil Nagar, S Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400042, India",S,Orange,3.0,1.0
+495,495,19.171341773761558,72.95345676475453,"Bhakti Park, R H Bhojraj Road, Vijay Nagar, T Ward, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, 400080, India",T,Orange,3.0,1.0
+496,496,19.257877399999998,72.85204499999998,"Shivaji Nagar, R/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400068, India",R/N,Orange,2.0,3.0
+497,497,19.059900000000027,72.88810277800006,"FOOTWEAR, Shell Colony Road, Thakkar Bappa Colony, M/W Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400071, India",M/W,Orange,4.0,2.0
+498,498,19.0683073,72.84490140000003,"Pipeline Road, RPF Colony, H/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 40051, India",H/E,Orange,5.0,2.0
+499,499,19.0732146,72.84578580000002,"Dauri Nagar, H/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400055, India",H/E,Orange,5.0,2.0
+500,500,19.10834929026186,72.85911518632898,"Velankanni Road, Chakala Village, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400 099, India",K/E,Orange,5.0,2.0
+501,501,19.10834929026186,72.85911518632898,"Velankanni Road, Chakala Village, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400 099, India",K/E,Orange,5.0,2.0
+502,502,19.1262049,72.84933240000001,"Azad Nagar, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400069, India",K/E,Orange,5.0,2.0
+503,503,19.132551499513248,72.85642788434377,"Shyam Nagar, K/E Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 400060, India",K/E,Orange,5.0,2.0
+504,504,19.192091100000003,72.86622320000001,"P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400097, India",P/N,Orange,2.0,3.0
+505,505,19.178345899999997,72.81644860000002,"Janakalyan Nagar, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400095, India",P/N,Orange,2.0,3.0
+506,506,19.1893374,72.81831340000001,"Janakalyan Nagar, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400095, India",P/N,Orange,2.0,3.0
+507,507,19.18343078336639,72.81842621230511,"Janakalyan Nagar, P/N Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400095, India",P/N,Orange,2.0,3.0
+508,508,19.20378407855691,72.83132614947365,"Charkop Village, R/S Ward, Zone 4, Mumbai, Mumbai Suburban, Maharashtra, 400067, India",R/S,Orange,2.0,3.0
+509,509,19.0671855,72.83650829999998,"8th Road, Linking Road Shopping area, H/W Ward, Zone 3, Mumbai, Mumbai Suburban, Maharashtra, 40051, India",H/W,Orange,5.0,2.0
+510,510,19.068630556000077,72.87996388900007,"Naware Baug Jagruti Nagar, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400024, India",L,Orange,4.0,2.0
+511,511,19.062763889000053,72.87304722200007,"fauziya hospital, LBS Marg, Hallow Pul, L Ward, Zone 5, Mumbai, Mumbai Suburban, Maharashtra, 400070, India",L,Orange,4.0,2.0
