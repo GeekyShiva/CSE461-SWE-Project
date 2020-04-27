@@ -1,0 +1,580 @@
+@startuml
+set namespaceSeparator ::
+
+class "taxi_app::bloc::taxi_booking_bloc.dart::TaxiBookingBloc" {
+  +TaxiBookingState initialState
+  +Stream mapEventToState()
+}
+
+"taxi_app::bloc::taxi_booking_bloc.dart::TaxiBookingBloc" o-- "taxi_app::bloc::taxi_booking_state.dart::TaxiBookingState"
+"bloc::src::bloc.dart::Bloc<Event, State>" <|-- "taxi_app::bloc::taxi_booking_bloc.dart::TaxiBookingBloc"
+
+abstract class "taxi_app::bloc::taxi_booking_event.dart::TaxiBookingEvent" {
+}
+
+"equatable::src::equatable.dart::Equatable" <|-- "taxi_app::bloc::taxi_booking_event.dart::TaxiBookingEvent"
+
+class "taxi_app::bloc::taxi_booking_event.dart::TaxiBookingStartEvent" {
+  +List<Object> props
+}
+
+"taxi_app::bloc::taxi_booking_event.dart::TaxiBookingEvent" <|-- "taxi_app::bloc::taxi_booking_event.dart::TaxiBookingStartEvent"
+
+class "taxi_app::bloc::taxi_booking_event.dart::DestinationDetailsEnteredEvent" {
+  +String source
+  +String destination
+  +List<Object> props
+}
+
+"taxi_app::bloc::taxi_booking_event.dart::TaxiBookingEvent" <|-- "taxi_app::bloc::taxi_booking_event.dart::DestinationDetailsEnteredEvent"
+
+class "taxi_app::bloc::taxi_booking_event.dart::RideNowEvent" {
+  +List<Object> props
+}
+
+"taxi_app::bloc::taxi_booking_event.dart::TaxiBookingEvent" <|-- "taxi_app::bloc::taxi_booking_event.dart::RideNowEvent"
+
+class "taxi_app::bloc::taxi_booking_event.dart::DetailsSubmittedEvent" {
+  +GoogleLocation source
+  +GoogleLocation destination
+  +List<Object> props
+}
+
+"taxi_app::bloc::taxi_booking_event.dart::DetailsSubmittedEvent" o-- "taxi_app::models::google_location.dart::GoogleLocation"
+"taxi_app::bloc::taxi_booking_event.dart::TaxiBookingEvent" <|-- "taxi_app::bloc::taxi_booking_event.dart::DetailsSubmittedEvent"
+
+class "taxi_app::bloc::taxi_booking_event.dart::TaxiSelectedEvent" {
+  +List<Object> props
+}
+
+"taxi_app::bloc::taxi_booking_event.dart::TaxiBookingEvent" <|-- "taxi_app::bloc::taxi_booking_event.dart::TaxiSelectedEvent"
+
+class "taxi_app::bloc::taxi_booking_event.dart::BackPressedEvent" {
+  +List<Object> props
+}
+
+"taxi_app::bloc::taxi_booking_event.dart::TaxiBookingEvent" <|-- "taxi_app::bloc::taxi_booking_event.dart::BackPressedEvent"
+
+class "taxi_app::bloc::taxi_booking_event.dart::TaxiBookingCancelEvent" {
+  +List<Object> props
+}
+
+"taxi_app::bloc::taxi_booking_event.dart::TaxiBookingEvent" <|-- "taxi_app::bloc::taxi_booking_event.dart::TaxiBookingCancelEvent"
+
+abstract class "taxi_app::bloc::taxi_booking_state.dart::TaxiBookingState" {
+}
+
+"equatable::src::equatable.dart::Equatable" <|-- "taxi_app::bloc::taxi_booking_state.dart::TaxiBookingState"
+
+class "taxi_app::bloc::taxi_booking_state.dart::TaxiBookingNotInitializedState" {
+  +List<Object> props
+}
+
+"taxi_app::bloc::taxi_booking_state.dart::TaxiBookingState" <|-- "taxi_app::bloc::taxi_booking_state.dart::TaxiBookingNotInitializedState"
+
+class "taxi_app::bloc::taxi_booking_state.dart::TaxiBookingNotSelectedState" {
+  +List<Taxi> taxisAvailable
+  +List<Object> props
+}
+
+"taxi_app::bloc::taxi_booking_state.dart::TaxiBookingState" <|-- "taxi_app::bloc::taxi_booking_state.dart::TaxiBookingNotSelectedState"
+
+class "taxi_app::bloc::taxi_booking_state.dart::DetailsNotFilledState" {
+  +TaxiBooking booking
+  +List<Object> props
+}
+
+"taxi_app::bloc::taxi_booking_state.dart::DetailsNotFilledState" o-- "taxi_app::models::taxi_booking.dart::TaxiBooking"
+"taxi_app::bloc::taxi_booking_state.dart::TaxiBookingState" <|-- "taxi_app::bloc::taxi_booking_state.dart::DetailsNotFilledState"
+
+class "taxi_app::bloc::taxi_booking_state.dart::TaxiNotSelectedState" {
+  +TaxiBooking booking
+  +List<Object> props
+}
+
+"taxi_app::bloc::taxi_booking_state.dart::TaxiNotSelectedState" o-- "taxi_app::models::taxi_booking.dart::TaxiBooking"
+"taxi_app::bloc::taxi_booking_state.dart::TaxiBookingState" <|-- "taxi_app::bloc::taxi_booking_state.dart::TaxiNotSelectedState"
+
+class "taxi_app::bloc::taxi_booking_state.dart::TaxiNotConfirmedState" {
+  +TaxiDriver driver
+  +TaxiBooking booking
+  +List<Object> props
+}
+
+"taxi_app::bloc::taxi_booking_state.dart::TaxiNotConfirmedState" o-- "taxi_app::models::taxi_driver.dart::TaxiDriver"
+"taxi_app::bloc::taxi_booking_state.dart::TaxiNotConfirmedState" o-- "taxi_app::models::taxi_booking.dart::TaxiBooking"
+"taxi_app::bloc::taxi_booking_state.dart::TaxiBookingState" <|-- "taxi_app::bloc::taxi_booking_state.dart::TaxiNotConfirmedState"
+
+class "taxi_app::bloc::taxi_booking_state.dart::TaxiConfirmedState" {
+  +TaxiDriver driver
+  +TaxiBooking booking
+  +List<Object> props
+}
+
+"taxi_app::bloc::taxi_booking_state.dart::TaxiConfirmedState" o-- "taxi_app::models::taxi_driver.dart::TaxiDriver"
+"taxi_app::bloc::taxi_booking_state.dart::TaxiConfirmedState" o-- "taxi_app::models::taxi_booking.dart::TaxiBooking"
+"taxi_app::bloc::taxi_booking_state.dart::TaxiBookingState" <|-- "taxi_app::bloc::taxi_booking_state.dart::TaxiConfirmedState"
+
+class "taxi_app::bloc::taxi_booking_state.dart::TaxiBookingCancelledState" {
+  +List<Object> props
+}
+
+"taxi_app::bloc::taxi_booking_state.dart::TaxiBookingState" <|-- "taxi_app::bloc::taxi_booking_state.dart::TaxiBookingCancelledState"
+
+class "taxi_app::bloc::taxi_booking_state.dart::TaxiBookingLoadingState" {
+  +TaxiBookingState state
+  +List<Object> props
+}
+
+"taxi_app::bloc::taxi_booking_state.dart::TaxiBookingLoadingState" o-- "taxi_app::bloc::taxi_booking_state.dart::TaxiBookingState"
+"taxi_app::bloc::taxi_booking_state.dart::TaxiBookingState" <|-- "taxi_app::bloc::taxi_booking_state.dart::TaxiBookingLoadingState"
+
+class "taxi_app::bloc::taxi_booking_state.dart::TaxiBookingConfirmedState" {
+  +TaxiDriver driver
+  +TaxiBooking booking
+  +List<Object> props
+}
+
+"taxi_app::bloc::taxi_booking_state.dart::TaxiBookingConfirmedState" o-- "taxi_app::models::taxi_driver.dart::TaxiDriver"
+"taxi_app::bloc::taxi_booking_state.dart::TaxiBookingConfirmedState" o-- "taxi_app::models::taxi_booking.dart::TaxiBooking"
+"taxi_app::bloc::taxi_booking_state.dart::TaxiBookingState" <|-- "taxi_app::bloc::taxi_booking_state.dart::TaxiBookingConfirmedState"
+
+class "taxi_app::bloc::taxi_booking_state.dart::TaxiRideCompleteState" {
+  +List<Object> props
+}
+
+"taxi_app::bloc::taxi_booking_state.dart::TaxiBookingState" <|-- "taxi_app::bloc::taxi_booking_state.dart::TaxiRideCompleteState"
+
+class "taxi_app::controllers::location_controller.dart::LocationController" {
+  {static} +Map<int, Map<String, Object>> locationDetails
+  {static} +Map<int, Map<String, Object>> zoneDetails
+  {static} +dynamic getLocationFromString()
+  {static} +String getZoneSeverity()
+  {static} +String getLocationNameFromPosition()
+  {static} +dynamic getDistance()
+  {static} +String getZoneforPosition()
+  {static} +Future getPolylines()
+}
+
+class "taxi_app::controllers::payment_method_controller.dart::PaymentMethodController" {
+  {static} +Future getMethods()
+}
+
+class "taxi_app::controllers::taxi_booking_controller.dart::TaxiBookingController" {
+  {static} +Map<int, Map<String, Object>> taxiDrivers
+  {static} +Map<int, Map<String, Object>> taxis
+  {static} +Future getPrice()
+  {static} +dynamic getTaxiDetails()
+  {static} +Future getTaxiDriver()
+  {static} +Future getTaxisAvailable()
+}
+
+class "taxi_app::controllers::taxi_controller.dart::TaxiController" {
+  {static} +Future getTaxis()
+}
+
+class "taxi_app::controllers::user_controller.dart::UserController" {
+  {static} +User getUser()
+}
+
+class "taxi_app::controllers::user_location_controller.dart::UserLocationController" {
+  {static} +Future getSavedLocations()
+}
+
+class "taxi_app::main.dart::MyApp" {
+  +Widget build()
+}
+
+"flutter::src::widgets::framework.dart::StatelessWidget" <|-- "taxi_app::main.dart::MyApp"
+
+class "taxi_app::models::google_location.dart::GoogleLocation" {
+  +LatLng position
+  +String areaDetails
+  +String zone
+}
+
+"taxi_app::models::google_location.dart::GoogleLocation" o-- "google_maps_flutter::google_maps_flutter.dart::LatLng"
+
+class "taxi_app::models::payment_method.dart::PaymentMethod" {
+  +String id
+  +String title
+  +String icon
+  +String description
+  +List<Object> props
+}
+
+"equatable::src::equatable.dart::Equatable" <|-- "taxi_app::models::payment_method.dart::PaymentMethod"
+
+class "taxi_app::models::taxi.dart::Taxi" {
+  +String id
+  +String title
+  +bool isAvailable
+  +String plateNo
+  +LatLng position
+  +List<Object> props
+}
+
+"taxi_app::models::taxi.dart::Taxi" o-- "google_maps_flutter::google_maps_flutter.dart::LatLng"
+"equatable::src::equatable.dart::Equatable" <|-- "taxi_app::models::taxi.dart::Taxi"
+
+class "taxi_app::models::taxi_booking.dart::TaxiBooking" {
+  +String id
+  +GoogleLocation source
+  +GoogleLocation destination
+  +double estimatedPrice
+  +PaymentMethod paymentMethod
+  +String promoApplied
+  +TaxiBooking copyWith()
+}
+
+"taxi_app::models::taxi_booking.dart::TaxiBooking" o-- "taxi_app::models::google_location.dart::GoogleLocation"
+"taxi_app::models::taxi_booking.dart::TaxiBooking" o-- "taxi_app::models::payment_method.dart::PaymentMethod"
+
+class "taxi_app::models::taxi_driver.dart::TaxiDriver" {
+  +String id
+  +String driverName
+  +Taxi taxiDetails
+  +String driverPic
+  +String zone
+  +List<Object> props
+}
+
+"taxi_app::models::taxi_driver.dart::TaxiDriver" o-- "taxi_app::models::taxi.dart::Taxi"
+"equatable::src::equatable.dart::Equatable" <|-- "taxi_app::models::taxi_driver.dart::TaxiDriver"
+
+class "taxi_app::models::user.dart::User" {
+  +String name
+  +String mobileNumber
+  +String photoUrl
+}
+
+class "taxi_app::models::user_location.dart::UserLocationType" {
+  +int index
+  {static} +List<UserLocationType> values
+  {static} +UserLocationType LocationA
+  {static} +UserLocationType LocationB
+  {static} +UserLocationType LocationC
+  {static} +UserLocationType LocationD
+}
+
+"taxi_app::models::user_location.dart::UserLocationType" o-- "taxi_app::models::user_location.dart::UserLocationType"
+
+class "taxi_app::models::user_location.dart::UserLocation" {
+  +String name
+  +UserLocationType locationType
+  +LatLng position
+  +int minutesFar
+}
+
+"taxi_app::models::user_location.dart::UserLocation" o-- "taxi_app::models::user_location.dart::UserLocationType"
+"taxi_app::models::user_location.dart::UserLocation" o-- "google_maps_flutter::google_maps_flutter.dart::LatLng"
+
+class "taxi_app::screens::home_screen.dart::HomeScreen" {
+  +_HomeScreenState createState()
+}
+
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "taxi_app::screens::home_screen.dart::HomeScreen"
+
+class "taxi_app::screens::home_screen.dart::_HomeScreenState" {
+  +void initState()
+  +Widget build()
+}
+
+"flutter::src::widgets::framework.dart::State<T>" <|-- "taxi_app::screens::home_screen.dart::_HomeScreenState"
+
+class "taxi_app::storage::taxi_booking_storage.dart::TaxiBookingStorage" {
+  {static} -TaxiBooking _taxiBooking
+  {static} +Future open()
+  {static} +Future addDetails()
+  {static} +Future getTaxiBooking()
+}
+
+"taxi_app::storage::taxi_booking_storage.dart::TaxiBookingStorage" o-- "taxi_app::models::taxi_booking.dart::TaxiBooking"
+
+class "taxi_app::widgets::dashed_line.dart::DashedLine" {
+  +double height
+  +double dashWidth
+  +Color color
+  +Widget build()
+}
+
+"taxi_app::widgets::dashed_line.dart::DashedLine" o-- "dart::ui::Color"
+"flutter::src::widgets::framework.dart::StatelessWidget" <|-- "taxi_app::widgets::dashed_line.dart::DashedLine"
+
+class "taxi_app::widgets::destination_selection_widget.dart::DestinationSelctionWidget" {
+  +_DestinationSelctionWidgetState createState()
+}
+
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "taxi_app::widgets::destination_selection_widget.dart::DestinationSelctionWidget"
+
+class "taxi_app::widgets::destination_selection_widget.dart::_DestinationSelctionWidgetState" {
+  +bool isLoading
+  +List<UserLocation> savedLocations
+  +AnimationController animationController
+  +Animation animation
+  +void initState()
+  +Future loadDestinations()
+  +Widget build()
+  +Widget buildNewDestinationWidget()
+  +void rideNow()
+  +void dispose()
+}
+
+"taxi_app::widgets::destination_selection_widget.dart::_DestinationSelctionWidgetState" o-- "flutter::src::animation::animation_controller.dart::AnimationController"
+"taxi_app::widgets::destination_selection_widget.dart::_DestinationSelctionWidgetState" o-- "flutter::src::animation::animation.dart::Animation"
+"flutter::src::widgets::framework.dart::State<T>" <|-- "taxi_app::widgets::destination_selection_widget.dart::_DestinationSelctionWidgetState"
+"flutter::src::widgets::ticker_provider.dart::TickerProviderStateMixin<T>" <|-- "taxi_app::widgets::destination_selection_widget.dart::_DestinationSelctionWidgetState"
+
+class "taxi_app::widgets::ease_in_widget.dart::EaseInWidget" {
+  +Widget child
+  +Function onTap
+  +State createState()
+}
+
+"taxi_app::widgets::ease_in_widget.dart::EaseInWidget" o-- "flutter::src::widgets::framework.dart::Widget"
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "taxi_app::widgets::ease_in_widget.dart::EaseInWidget"
+
+class "taxi_app::widgets::ease_in_widget.dart::_EaseInWidgetState" {
+  +AnimationController controller
+  +Animation<double> easeInAnimation
+  +void initState()
+  +Widget build()
+  +void dispose()
+}
+
+"taxi_app::widgets::ease_in_widget.dart::_EaseInWidgetState" o-- "flutter::src::animation::animation_controller.dart::AnimationController"
+"taxi_app::widgets::ease_in_widget.dart::_EaseInWidgetState" o-- "flutter::src::animation::animation.dart::Animation<double>"
+"flutter::src::widgets::framework.dart::State<T>" <|-- "taxi_app::widgets::ease_in_widget.dart::_EaseInWidgetState"
+"flutter::src::widgets::ticker_provider.dart::TickerProviderStateMixin<T>" <|-- "taxi_app::widgets::ease_in_widget.dart::_EaseInWidgetState"
+
+class "taxi_app::widgets::home_app_bar.dart::HomeAppBar" {
+  +Size preferredSize
+  +_HomeAppBarState createState()
+}
+
+"taxi_app::widgets::home_app_bar.dart::HomeAppBar" o-- "dart::ui::Size"
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "taxi_app::widgets::home_app_bar.dart::HomeAppBar"
+"flutter::src::widgets::preferred_size.dart::PreferredSizeWidget" <|-- "taxi_app::widgets::home_app_bar.dart::HomeAppBar"
+
+class "taxi_app::widgets::home_app_bar.dart::_HomeAppBarState" {
+  +AnimationController controller
+  +void initState()
+  +Widget build()
+  +void dispose()
+}
+
+"taxi_app::widgets::home_app_bar.dart::_HomeAppBarState" o-- "flutter::src::animation::animation_controller.dart::AnimationController"
+"flutter::src::widgets::framework.dart::State<T>" <|-- "taxi_app::widgets::home_app_bar.dart::_HomeAppBarState"
+"flutter::src::widgets::ticker_provider.dart::TickerProviderStateMixin<T>" <|-- "taxi_app::widgets::home_app_bar.dart::_HomeAppBarState"
+
+class "taxi_app::widgets::home_drawer.dart::HomeDrawer" {
+  +Widget build()
+  +Widget buildAction()
+}
+
+"flutter::src::widgets::framework.dart::StatelessWidget" <|-- "taxi_app::widgets::home_drawer.dart::HomeDrawer"
+
+class "taxi_app::widgets::loading_shimmer.dart::LoadingShimmer" {
+  +Widget build()
+}
+
+"flutter::src::widgets::framework.dart::StatelessWidget" <|-- "taxi_app::widgets::loading_shimmer.dart::LoadingShimmer"
+
+class "taxi_app::widgets::location_map.dart::LocationMap" {
+  +_LocationMapState createState()
+}
+
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "taxi_app::widgets::location_map.dart::LocationMap"
+
+class "taxi_app::widgets::location_map.dart::_LocationMapState" {
+  +Widget build()
+}
+
+"flutter::src::widgets::framework.dart::State<T>" <|-- "taxi_app::widgets::location_map.dart::_LocationMapState"
+
+class "taxi_app::widgets::rounded_button.dart::RoundedButton" {
+  +String text
+  +dynamic Function() onTap
+  +IconData iconData
+  +Widget build()
+}
+
+"taxi_app::widgets::rounded_button.dart::RoundedButton" o-- "taxi_app::widgets::rounded_button.dart::dynamic Function()"
+"taxi_app::widgets::rounded_button.dart::RoundedButton" o-- "flutter::src::widgets::icon_data.dart::IconData"
+"flutter::src::widgets::framework.dart::StatelessWidget" <|-- "taxi_app::widgets::rounded_button.dart::RoundedButton"
+
+class "taxi_app::widgets::taxi_booking_cancellation_dialog.dart::TaxiBookingCancellationDialog" {
+  +Widget build()
+}
+
+"flutter::src::widgets::framework.dart::StatelessWidget" <|-- "taxi_app::widgets::taxi_booking_cancellation_dialog.dart::TaxiBookingCancellationDialog"
+
+class "taxi_app::widgets::taxi_booking_confirmed_widget.dart::TaxiBookingConfirmedWidget" {
+  +_TaxiBookingConfirmedWidgetState createState()
+}
+
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "taxi_app::widgets::taxi_booking_confirmed_widget.dart::TaxiBookingConfirmedWidget"
+
+class "taxi_app::widgets::taxi_booking_confirmed_widget.dart::_TaxiBookingConfirmedWidgetState" {
+  +AnimationController animationController
+  +Animation animation
+  +TaxiDriver driver
+  +TaxiBooking booking
+  +void initState()
+  +Widget build()
+  +Widget buildDriver()
+}
+
+"taxi_app::widgets::taxi_booking_confirmed_widget.dart::_TaxiBookingConfirmedWidgetState" o-- "flutter::src::animation::animation_controller.dart::AnimationController"
+"taxi_app::widgets::taxi_booking_confirmed_widget.dart::_TaxiBookingConfirmedWidgetState" o-- "flutter::src::animation::animation.dart::Animation"
+"taxi_app::widgets::taxi_booking_confirmed_widget.dart::_TaxiBookingConfirmedWidgetState" o-- "taxi_app::models::taxi_driver.dart::TaxiDriver"
+"taxi_app::widgets::taxi_booking_confirmed_widget.dart::_TaxiBookingConfirmedWidgetState" o-- "taxi_app::models::taxi_booking.dart::TaxiBooking"
+"flutter::src::widgets::framework.dart::State<T>" <|-- "taxi_app::widgets::taxi_booking_confirmed_widget.dart::_TaxiBookingConfirmedWidgetState"
+"flutter::src::widgets::ticker_provider.dart::TickerProviderStateMixin<T>" <|-- "taxi_app::widgets::taxi_booking_confirmed_widget.dart::_TaxiBookingConfirmedWidgetState"
+
+class "taxi_app::widgets::taxi_booking_details_widget.dart::TaxiBookingDetailsWidget" {
+  +_TaxiBookingDetailsWidgetState createState()
+}
+
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "taxi_app::widgets::taxi_booking_details_widget.dart::TaxiBookingDetailsWidget"
+
+class "taxi_app::widgets::taxi_booking_details_widget.dart::_TaxiBookingDetailsWidgetState" {
+  +TextEditingController sourceController
+  +TextEditingController destinationController
+  +void initState()
+  +Widget build()
+  +Widget buildContainer()
+  +Widget buildInputWidget()
+}
+
+"taxi_app::widgets::taxi_booking_details_widget.dart::_TaxiBookingDetailsWidgetState" o-- "flutter::src::widgets::editable_text.dart::TextEditingController"
+"flutter::src::widgets::framework.dart::State<T>" <|-- "taxi_app::widgets::taxi_booking_details_widget.dart::_TaxiBookingDetailsWidgetState"
+
+class "taxi_app::widgets::taxi_booking_home_widget.dart::TaxiBookingHomeWidget" {
+  +_TaxiBookingHomeWidgetState createState()
+}
+
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "taxi_app::widgets::taxi_booking_home_widget.dart::TaxiBookingHomeWidget"
+
+class "taxi_app::widgets::taxi_booking_home_widget.dart::_TaxiBookingHomeWidgetState" {
+  +AnimationController animationController
+  +Animation animation
+  +void initState()
+  +Widget build()
+  +void dispose()
+}
+
+"taxi_app::widgets::taxi_booking_home_widget.dart::_TaxiBookingHomeWidgetState" o-- "flutter::src::animation::animation_controller.dart::AnimationController"
+"taxi_app::widgets::taxi_booking_home_widget.dart::_TaxiBookingHomeWidgetState" o-- "flutter::src::animation::animation.dart::Animation"
+"flutter::src::widgets::framework.dart::State<T>" <|-- "taxi_app::widgets::taxi_booking_home_widget.dart::_TaxiBookingHomeWidgetState"
+"flutter::src::widgets::ticker_provider.dart::TickerProviderStateMixin<T>" <|-- "taxi_app::widgets::taxi_booking_home_widget.dart::_TaxiBookingHomeWidgetState"
+
+class "taxi_app::widgets::taxi_booking_not_confirmed_widget.dart::TaxiBookingNotConfirmedWidget" {
+  +_TaxiBookingNotConfirmedWidgetState createState()
+}
+
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "taxi_app::widgets::taxi_booking_not_confirmed_widget.dart::TaxiBookingNotConfirmedWidget"
+
+class "taxi_app::widgets::taxi_booking_not_confirmed_widget.dart::_TaxiBookingNotConfirmedWidgetState" {
+  +TaxiBooking booking
+  +TaxiDriver driver
+  +void initState()
+  +Widget build()
+  +Widget buildDriver()
+  +Widget buildPriceDetails()
+  +Widget buildIconText()
+}
+
+"taxi_app::widgets::taxi_booking_not_confirmed_widget.dart::_TaxiBookingNotConfirmedWidgetState" o-- "taxi_app::models::taxi_booking.dart::TaxiBooking"
+"taxi_app::widgets::taxi_booking_not_confirmed_widget.dart::_TaxiBookingNotConfirmedWidgetState" o-- "taxi_app::models::taxi_driver.dart::TaxiDriver"
+"flutter::src::widgets::framework.dart::State<T>" <|-- "taxi_app::widgets::taxi_booking_not_confirmed_widget.dart::_TaxiBookingNotConfirmedWidgetState"
+
+class "taxi_app::widgets::taxi_booking_payments_widget.dart::TaxiBookingPaymentsWidget" {
+  +_TaxiBookingPaymentsWidgetState createState()
+}
+
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "taxi_app::widgets::taxi_booking_payments_widget.dart::TaxiBookingPaymentsWidget"
+
+class "taxi_app::widgets::taxi_booking_payments_widget.dart::_TaxiBookingPaymentsWidgetState" {
+  +List<PaymentMethod> methods
+  +PaymentMethod selectedMethod
+  +Widget build()
+  +Widget buildPaymentMethod()
+}
+
+"taxi_app::widgets::taxi_booking_payments_widget.dart::_TaxiBookingPaymentsWidgetState" o-- "taxi_app::models::payment_method.dart::PaymentMethod"
+"flutter::src::widgets::framework.dart::State<T>" <|-- "taxi_app::widgets::taxi_booking_payments_widget.dart::_TaxiBookingPaymentsWidgetState"
+
+class "taxi_app::widgets::taxi_booking_state_widget.dart::TaxiBookingStateWidget" {
+  +Widget build()
+  +Widget buildTab()
+}
+
+"flutter::src::widgets::framework.dart::StatelessWidget" <|-- "taxi_app::widgets::taxi_booking_state_widget.dart::TaxiBookingStateWidget"
+
+class "taxi_app::widgets::taxi_booking_taxis_widget.dart::TaxiBookingTaxisWidget" {
+  +_TaxiBookingTaxisWidgetState createState()
+}
+
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "taxi_app::widgets::taxi_booking_taxis_widget.dart::TaxiBookingTaxisWidget"
+
+class "taxi_app::widgets::taxi_booking_taxis_widget.dart::_TaxiBookingTaxisWidgetState" {
+  +TaxiBooking taxiBooking
+  +void initState()
+  +Widget build()
+  +Widget buildPriceDetails()
+  +Widget buildIconText()
+  +Widget buildLocation()
+  +Widget buildPaymentMethod()
+}
+
+"taxi_app::widgets::taxi_booking_taxis_widget.dart::_TaxiBookingTaxisWidgetState" o-- "taxi_app::models::taxi_booking.dart::TaxiBooking"
+"flutter::src::widgets::framework.dart::State<T>" <|-- "taxi_app::widgets::taxi_booking_taxis_widget.dart::_TaxiBookingTaxisWidgetState"
+
+class "taxi_app::widgets::taxi_map.dart::TaxiMap" {
+  +_TaxiMapState createState()
+}
+
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "taxi_app::widgets::taxi_map.dart::TaxiMap"
+
+class "taxi_app::widgets::taxi_map.dart::_TaxiMapState" {
+  +GoogleMapController controller
+  +Set<Marker> markers
+  +Set<Polyline> polylines
+  +Set<Circle> circles
+  +GoogleLocation currentLocation
+  +void initState()
+  +void clearData()
+  +Circle createCircle()
+  +Widget build()
+  +Future addTaxis()
+  +Future createMarker()
+  +Future addPolylines()
+  +Future getBytesFromAsset()
+}
+
+"taxi_app::widgets::taxi_map.dart::_TaxiMapState" o-- "google_maps_flutter::google_maps_flutter.dart::GoogleMapController"
+"taxi_app::widgets::taxi_map.dart::_TaxiMapState" o-- "taxi_app::models::google_location.dart::GoogleLocation"
+"flutter::src::widgets::framework.dart::State<T>" <|-- "taxi_app::widgets::taxi_map.dart::_TaxiMapState"
+
+class "taxi_app::widgets::taxi_ride_complete_widget.dart::TaxiRideCompleteWidget" {
+  +_TaxiRideCompleteWidgetState createState()
+}
+
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "taxi_app::widgets::taxi_ride_complete_widget.dart::TaxiRideCompleteWidget"
+
+class "taxi_app::widgets::taxi_ride_complete_widget.dart::_TaxiRideCompleteWidgetState" {
+  +AnimationController animationController
+  +Animation animation
+  +void initState()
+  +Widget build()
+  +Widget buildDialog()
+}
+
+"taxi_app::widgets::taxi_ride_complete_widget.dart::_TaxiRideCompleteWidgetState" o-- "flutter::src::animation::animation_controller.dart::AnimationController"
+"taxi_app::widgets::taxi_ride_complete_widget.dart::_TaxiRideCompleteWidgetState" o-- "flutter::src::animation::animation.dart::Animation"
+"flutter::src::widgets::framework.dart::State<T>" <|-- "taxi_app::widgets::taxi_ride_complete_widget.dart::_TaxiRideCompleteWidgetState"
+"flutter::src::widgets::ticker_provider.dart::TickerProviderStateMixin<T>" <|-- "taxi_app::widgets::taxi_ride_complete_widget.dart::_TaxiRideCompleteWidgetState"
+
+
+@enduml
