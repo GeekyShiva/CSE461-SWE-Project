@@ -23,6 +23,13 @@
 2. [High-level Design Document](https://github.com/GeekyShiva/CSE461-SWE-Project/tree/master/Docs/HLD_document.pdf)
 3. [Slides](https://docs.google.com/presentation/d/17Lka62b90tfmPaar4mK9Xc8UgmDaZoDqnsTilEiwpls/view?usp=sharing)
 
+# Screenshots
+
+![makephotogallery.net_1580238239.jpg](https://www.dropbox.com/s/dgd40s5752y2jsl/makephotogallery.net_1580238239.jpg?dl=0&raw=1)
+
+# User Interactions
+![video.gif](https://firebasestorage.googleapis.com/v0/b/smart-ordr.appspot.com/o/ezgif.com-resize.gif?alt=media&token=3d9a010b-ba52-4045-a24e-cb3078e2a2f1)
+
 # About Flutter
 Flutter is an app SDK for building high-performance, high-fidelity apps for iOS, Android, web (beta), and desktop from a single codebase.
 
