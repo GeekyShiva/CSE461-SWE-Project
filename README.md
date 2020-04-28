@@ -62,6 +62,8 @@ It stands for Density based clustering algorithm.It has played a vital role in f
 * It Does not require a-priori specification of number of clusters.
 * It is Able to identify noise data while clustering.
 * It is capable of finding arbitrarily size and arbitrarily shaped clusters not like K-means which gives only circular clusters.
+*  DBSCAN is one of the most common clustering algorithms and also most cited in scientific literature
+* DBSCAN requires just two parameters and is mostly insensitive to the ordering of the points in the database. (However, points sitting on the edge of two different clusters might swap cluster membership if the ordering of the points is changed, and the cluster assignment is unique only up to isomorphism.)
 
 ## Creating Zones
 Once we have the clusters, we are using the number of patients in the cluster and the population pointers (Red, Blue, Orange) in that region of cluster to determine the severity of the zones and have generated 5 zones from it.
